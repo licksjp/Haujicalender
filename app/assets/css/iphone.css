@@ -1,0 +1,81 @@
+﻿@CHARSET "UTF-8";
+
+/*
+iphone.css
+(C) 2012 HTC
+
+default.cssの差分。
+*/
+#menutitle, #toc, #scriptdisabled, .pcipad, .ipadinline {
+	display: none;
+}
+.notpc, #main h2, #main .deptlist {
+	display: block;
+}
+.iphoneinline {
+	display: inline;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+#menu {
+	position: static;
+	width: 100%;
+	margin-top: 0;
+	float: none;
+	border: none;
+}
+#main {
+	margin: 0;
+	padding: 5px;
+}
+#menutitle2 {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	font-size: 100%;	/* 14px */
+	font-weight: bold;
+	margin: -0.2em;
+	padding: 0.5em;
+	text-align: center;
+	border: thin gray solid;
+	border-radius: 0 0 0.5em 0.5em;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+#heading1 {
+	margin: 0 0 1em 0;
+	padding: 0 0 0 50px;
+}
+h2 {
+	font-size: 121.42%;	/* 17px */
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	text-indent: -21px; /*最初の行だけ21px分、左に動かす*/
+}
+h3 {
+	font-size: 114.28%;	/* 16px */
+}
+img.step_anker, img.step_anker_noborder {
+	max-width: 270px;
+}
+div.step_supple img, div.step_point img, div.step_hint img {
+	max-width: 220px;
+}
+div.flowgroup {
+	width: 85%;
+	margin: 1em auto 1em 1.2em;
+}
+ul.acc a {
+	font-weight: bold;
+	padding: 0.8em 0;
+}
+ul.acc, ul.acc li ul {
+	margin: 0;
+	padding: 1em;
+}
+ul.acc li ul li ul li {
+	padding: 0 16px;
+}

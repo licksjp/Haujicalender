@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <array name="ARRAY_List">
+        <item>@string/Data_Statas0_No_Data</item>
+        <item>@string/Data_Statas1_No_Data</item>
+        <item>@string/Data_Statas2_No_Data</item>
+        <item>@string/Data_Statas3_No_Data</item>
+        <item>@string/Data_Statas4_No_Data</item>
+        <item>@string/Data_Statas5_No_Data</item>
+        <item>@string/Data_Statas6_No_Data</item>
+        <item>@string/Data_Statas7_No_Data</item>
+        <item>@string/Data_Statas8_No_Data</item>
+        <item>@string/Data_Statas9_No_Data</item>
+    </array>
+    <!-- 和歴から西歴の変換表 -->
+    <integer-array name="Wareki_Seireki_Change">
+        <!-- 昭和元年 -->
+        <item>1926</item>
+        <!-- 昭和2年 -->
+        <item>1927</item>
+        <!-- 昭和3年 -->
+        <item>1928</item>
+        <!-- 昭和4年 -->
+        <item>1929</item>
+        <!-- 昭和5年 -->
+        <item>1930</item>
+        <!-- 昭和6年 -->
+        <item>1931</item>
+        <!-- 昭和7年 -->
+        <item>1932</item>
+        <!-- 昭和8年 -->
+        <item>1933</item>
+        <!-- 昭和9年 -->
+        <item>1934</item>
+        <!-- 昭和10年 -->
+        <item>1935</item>
+        <!-- 昭和11年 -->
+        <item>1936</item>
+        <!-- 昭和12年 -->
+        <item>1937</item>
+        <!-- 昭和13年 -->
+        <item>1938</item>
+        <!-- 昭和14年 -->
+        <item>1939</item>
+        <!-- 昭和15年 -->
+        <item>1940</item>
+        <!-- 昭和16年 -->
+        <item>1941</item>
+        <!-- 昭和17年 -->
+        <item>1942</item>
+        <!-- 昭和18年 -->
+        <item>1943</item>
+        <!-- 昭和19年 -->
+        <item>1944</item>
+        <!-- 昭和20年 -->
+        <item>1945</item>
+        <!-- 昭和21年 -->
+        <item>1946</item>
+        <!-- 昭和22年 -->
+        <item>1947</item>
+        <!-- 昭和23年 -->
+        <item>1948</item>
+        <!-- 昭和24年 -->
+        <item>1949</item>
+        <!-- 昭和25年 -->
+        <item>1950</item>
+        <!-- 昭和26年 -->
+        <item>1952</item>
+        <!-- 昭和27年 -->
+        <item>1953</item>
+        <!-- 昭和28年 -->
+        <item>1954</item>
+        <!-- 昭和29年 -->
+        <item>1955</item>
+        <!-- 昭和30年 -->
+        <item>1956</item>
+        <!-- 昭和32年 -->
+        <item>1957</item>
+        <!-- 昭和33年 -->
+        <item>1958</item>
+        <!-- 昭和34年 -->
+        <item>1959</item>
+        <!-- 昭和35年 -->
+        <item>1960</item>
+        <!-- 昭和36年 -->
+        <item>1961</item>
+        <!-- 昭和37年 -->
+        <item>1962</item>
+        <!-- 昭和38年 -->
+        <item>1963</item>
+        <!-- 昭和39年 -->
+        <item>1964</item>
+        <!-- 昭和40年 -->
+        <item>1965</item>
+        <!-- 昭和41年 -->
+        <item>1966</item>
+        <!-- 昭和42年 -->
+        <item>1967</item>
+        <!-- 昭和43年 -->
+        <item>1968</item>
+        <!-- 昭和44年 -->
+        <item>1969</item>
+        <!-- 昭和45年 -->
+        <item>1970</item>
+        <!-- 昭和46年 -->
+        <item>1971</item>
+        <!-- 昭和47年 -->
+        <item>1972</item>
+        <!-- 昭和48年 -->
+        <item>1973</item>
+        <!-- 昭和49年 -->
+        <item>1974</item>
+        <!-- 昭和50年 -->
+        <item>1975</item>
+        <!-- 昭和51年 -->
+        <item>1976</item>
+        <!-- 昭和52年 -->
+        <item>1977</item>
+        <!-- 昭和53年 -->
+        <item>1978</item>
+        <!-- 昭和54年 -->
+        <item>1979</item>
+        <!-- 昭和55年 -->
+        <item>1980</item>
+        <!-- 昭和56年 -->
+        <item>1981</item>
+        <!-- 昭和57年 -->
+        <item>1982</item>
+        <!-- 昭和58年 -->
+        <item>1983</item>
+        <!-- 昭和59年 -->
+        <item>1984</item>
+        <!-- 昭和60年 -->
+        <item>1985</item>
+        <!-- 昭和61年 -->
+        <item>1986</item>
+        <!-- 昭和62年 -->
+        <item>1987</item>
+        <!-- 昭和63年 -->
+        <item>1988</item>
+        <!-- 昭和64年 -->
+        <item>1989</item>
+        <!-- 平成元年 -->
+        <item>1989</item>
+        <!-- 平成2年 -->
+        <item>1990</item>
+        <!-- 平成3年 -->
+        <item>1991</item>
+        <!-- 平成4年 -->
+        <item>1992</item>
+        <!-- 平成5年 -->
+        <item>1993</item>
+        <!-- 平成6年 -->
+        <item>1994</item>
+        <!-- 平成7年 -->
+        <item>1995</item>
+        <!-- 平成8年 -->
+        <item>1996</item>
+        <!-- 平成9年 -->
+        <item>1997</item>
+        <!-- 平成10年 -->
+        <item>1998</item>
+        <!-- 平成11年 -->
+        <item>1999</item>
+        <!-- 平成12年 -->
+        <item>2000</item>
+        <!-- 平成13年 -->
+        <item>2001</item>
+        <!-- 平成14年 -->
+        <item>2002</item>
+        <!-- 平成15年 -->
+        <item>2003</item>
+        <!-- 平成16年 -->
+        <item>2004</item>
+        <!-- 平成17年 -->
+        <item>2005</item>
+        <!-- 平成18年 -->
+        <item>2006</item>
+        <!-- 平成19年 -->
+        <item>2007</item>
+        <!-- 平成20年 -->
+        <item>2008</item>
+        <!-- 平成21年 -->
+        <item>2009</item>
+        <!-- 平成22年 -->
+        <item>2010</item>
+        <!-- 平成23年 -->
+        <item>2011</item>
+        <!-- 平成24年 -->
+        <item>2012</item>
+        <!-- 平成25年 -->
+        <item>2013</item>
+        <!-- 平成26年 -->
+        <item>2014</item>
+        <!-- 平成27年 -->
+        <item>2015</item>
+    </integer-array>
+    <string-array name="Seireki_Wareki_Change">
+        <!--1926-->
+        <item>昭和1年</item>
+        <!-- 1927 -->
+        <item>昭和2年</item>
+        <!-- 1928 -->
+        <item>昭和3年</item>
+        <!--1929  -->
+        <item>昭和4年</item>
+        <!-- 1930 -->
+        <item>昭和5年</item>
+        <!--1931  -->
+        <item>昭和6年</item>
+        <!--1932  -->
+        <item>昭和7年</item>
+        <!--1933  -->
+        <item>昭和8年</item>
+        <!-- 1934 -->
+        <item>昭和9年</item>
+        <!--1935  -->
+        <item>昭和10年</item>
+        <!-- 1936 -->
+        <item>昭和11年</item>
+        <!--1937  -->
+        <item>昭和12年</item>
+        <!-- 1938 -->
+        <item>昭和13年</item>
+        <!--1939  -->
+        <item>昭和14年</item>
+        <!--1940  -->
+        <item>昭和15年</item>
+        <!-- 1941 -->
+        <item>昭和16年</item>
+        <!-- 1942 -->
+        <item>昭和17年</item>
+        <!--1943  -->
+        <item>昭和18年</item>
+        <!-- 1944 -->
+        <item>昭和19年</item>
+        <!--1945  -->
+        <item>昭和20年</item>
+        <!-- 1946 -->
+        <item>昭和21年</item>
+        <!--1947  -->
+        <item>昭和22年</item>
+        <!-- 1948 -->
+        <item>昭和23年</item>
+        <!-- 1949 -->
+        <item>昭和24年</item>
+        <!--1950  -->
+        <item>昭和25年</item>
+        <!--1952  -->
+        <item>昭和26年</item>
+        <!--1953  -->
+        <item>昭和27年</item>
+        <!--1954  -->
+        <item>昭和28年</item>
+        <!--1955 -->
+        <item>昭和29年</item>
+        <!--1956  -->
+        <item>昭和30年</item>
+        <!--1957  -->
+        <item>昭和32年</item>
+        <!--1958  -->
+        <item>昭和33年</item>
+        <!--1959  -->
+        <item>昭和34年</item>
+        <!-- 1960 -->
+        <item>昭和35年</item>
+        <!-- 1961 -->
+        <item>昭和36年</item>
+        <!-- 1962 -->
+        <item>昭和37年</item>
+        <!-- 1963 -->
+        <item>昭和38年</item>
+        <!-- 1964 -->
+        <item>昭和39年</item>
+        <!--1965  -->
+        <item>昭和40年</item>
+        <!-- 1966 -->
+        <item>昭和41年</item>
+        <!--1967  -->
+        <item>昭和42年</item>
+        <!--1968  -->
+        <item>昭和43年</item>
+        <!--1969  -->
+        <item>昭和44年</item>
+        <!--1970  -->
+        <item>昭和45年</item>
+        <!-- 1971 -->
+        <item>昭和46年</item>
+        <!--1972  -->
+        <item>昭和47年</item>
+        <!--1973  -->
+        <item>昭和48年</item>
+        <!--1974 -->
+        <item>昭和49年</item>
+        <!--1975  -->
+        <item>昭和50年</item>
+        <!--1976  -->
+        <item>昭和51年</item>
+        <!-- 1977 -->
+        <item>昭和52年</item>
+        <!-- 1978 -->
+        <item>昭和53年</item>
+        <!--1979  -->
+        <item>昭和54年</item>
+        <!--1980  -->
+        <item>昭和55年</item>
+        <!--1981  -->
+        <item>昭和56年</item>
+        <!--1982  -->
+        <item>昭和57年</item>
+        <!--1983  -->
+        <item>昭和58年</item>
+        <!--1984 -->
+        <item>昭和59年 </item>
+        <!--1985  -->
+        <item>昭和60年</item>
+        <!--1986  -->
+        <item>昭和61年</item>
+        <!--1987 -->
+        <item> 昭和62年</item>
+        <!--1988  -->
+        <item>昭和63年</item>
+        <!--1989  -->
+        <item>昭和64年</item>
+        <!--1989  -->
+        <item>平成元年</item>
+        <!--1990  -->
+        <item>平成2年</item>
+        <!--1991  -->
+        <item>平成3年</item>
+        <!-- 1992 -->
+        <item>平成4年</item>
+        <!-- 1993 -->
+        <item>平成5年</item>
+        <!-- 1994 -->
+        <item>平成6年</item>
+        <!-- 1995 -->
+        <item>平成7年</item>
+        <!-- 1996 -->
+        <item>平成8年</item>
+        <!--1997  -->
+        <item>平成9年</item>
+        <!--1998  -->
+        <item>平成10年</item>
+        <!--1999  -->
+        <item>平成11年</item>
+        <!--2000  -->
+        <item>平成12年</item>
+        <!--2001  -->
+        <item>平成13年</item>
+        <!-- 2002 -->
+        <item>平成14年</item>
+        <!--2003  -->
+        <item>平成15年</item>
+        <!--2004 -->
+        <item>平成16年</item>
+        <!--2005  -->
+        <item>平成17年</item>
+        <!-- 2006 -->
+        <item>平成18年</item>
+        <!--2007  -->
+        <item>平成19年</item>
+        <!--2008  -->
+        <item>平成20年</item>
+        <!--2009  -->
+        <item>平成21年</item>
+        <!--2010  -->
+        <item>平成22年</item>
+        <!-- 2011 -->
+        <item>平成23年</item>
+        <!--2012  -->
+        <item>平成24年</item>
+        <!--2013  -->
+        <item>平成25年</item>
+        <!--2014  -->
+        <item>平成26年</item>
+        <!--2015  -->
+        <item>平成27年</item>
+    </string-array>
+    <string-array name="Wareki_Type">
+        <!-- 1.平成 -->
+        <item>平成</item>
+        <!-- 2.昭和 -->
+        <item>昭和</item>
+    </string-array>
+    <!--年号変更するタイプの選択-->
+    <string-array name="NenGou_Change_Select_type">
+        <item>@string/Title_Wareki_Seireki_Wareki_Seireki</item>
+        <item>@string/Select_Wareki_Seireki</item>
+        <item>@string/Select_Seireki_Wareki</item>
+    </string-array>
+
+    <!--和暦の入力タイプの選択-->
+    <string-array name="Select_Wareki_type">
+        <item>@string/Title_Exchange_Wareki_list</item>
+        <item>@string/SelectWareki_list1_Syouwa</item>
+        <item>@string/SelectWareki_list2_Heisei</item>
+    </string-array>
+    <!--和暦を西暦に帰る選択肢-->
+    <!--1.昭和List-->
+    <string-array name="Select_Syouwa_List">
+        <item>@string/Title_WagouHeiseiList</item>
+        <item>@string/Title_WagouSyouwaList</item>
+        <item>@string/Select_Wagou_SyouwaList1</item>
+        <item>@string/Select_Wagou_SyouwaList2</item>
+        <item>@string/Select_Wagou_SyouwaList3</item>
+        <item>@string/Select_Wagou_SyouwaList4</item>
+        <item>@string/Select_Wagou_SyouwaList5</item>
+        <item>@string/Select_Wagou_SyouwaList6</item>
+        <item>@string/Select_Wagou_SyouwaList7</item>
+        <item>@string/Select_Wagou_SyouwaList8</item>
+        <item>@string/Select_Wagou_SyouwaList9</item>
+        <item>@string/Select_Wagou_SyouwaList10</item>
+        <item>@string/Select_Wagou_SyouwaList11</item>
+        <item>@string/Select_Wagou_SyouwaList12</item>
+        <item>@string/Select_Wagou_SyouwaList13</item>
+        <item>@string/Select_Wagou_SyouwaList14</item>
+        <item>@string/Select_Wagou_SyouwaList15</item>
+        <item>@string/Select_Wagou_SyouwaList16</item>
+        <item>@string/Select_Wagou_SyouwaList17</item>
+        <item>@string/Select_Wagou_SyouwaList18</item>
+        <item>@string/Select_Wagou_SyouwaList19</item>
+        <item>@string/Select_Wagou_SyouwaList20</item>
+        <item>@string/Select_Wagou_SyouwaList21</item>
+        <item>@string/Select_Wagou_SyouwaList22</item>
+        <item>@string/Select_Wagou_SyouwaList23</item>
+        <item>@string/Select_Wagou_SyouwaList24</item>
+        <item>@string/Select_Wagou_SyouwaList25</item>
+        <item>@string/Select_Wagou_SyouwaList26</item>
+        <item>@string/Select_Wagou_SyouwaList27</item>
+        <item>@string/Select_Wagou_SyouwaList28</item>
+        <item>@string/Select_Wagou_SyouwaList29</item>
+        <item>@string/Select_Wagou_SyouwaList30</item>
+        <item>@string/Select_Wagou_SyouwaList31</item>
+        <item>@string/Select_Wagou_SyouwaList32</item>
+        <item>@string/Select_Wagou_SyouwaList33</item>
+        <item>@string/Select_Wagou_SyouwaList34</item>
+        <item>@string/Select_Wagou_SyouwaList35</item>
+        <item>@string/Select_Wagou_SyouwaList36</item>
+        <item>@string/Select_Wagou_SyouwaList37</item>
+        <item>@string/Select_Wagou_SyouwaList38</item>
+        <item>@string/Select_Wagou_SyouwaList39</item>
+        <item>@string/Select_Wagou_SyouwaList40</item>
+        <item>@string/Select_Wagou_SyouwaList41</item>
+        <item>@string/Select_Wagou_SyouwaList42</item>
+        <item>@string/Select_Wagou_SyouwaList43</item>
+        <item>@string/Select_Wagou_SyouwaList44</item>
+        <item>@string/Select_Wagou_SyouwaList45</item>
+        <item>@string/Select_Wagou_SyouwaList46</item>
+        <item>@string/Select_Wagou_SyouwaList47</item>
+        <item>@string/Select_Wagou_SyouwaList48</item>
+        <item>@string/Select_Wagou_SyouwaList49</item>
+        <item>@string/Select_Wagou_SyouwaList50</item>
+        <item>@string/Select_Wagou_SyouwaList51</item>
+        <item>@string/Select_Wagou_SyouwaList52</item>
+        <item>@string/Select_Wagou_SyouwaList53</item>
+        <item>@string/Select_Wagou_SyouwaList54</item>
+        <item>@string/Select_Wagou_SyouwaList55</item>
+        <item>@string/Select_Wagou_SyouwaList56</item>
+        <item>@string/Select_Wagou_SyouwaList57</item>
+        <item>@string/Select_Wagou_SyouwaList58</item>
+        <item>@string/Select_Wagou_SyouwaList59</item>
+        <item>@string/Select_Wagou_SyouwaList60</item>
+        <item>@string/Select_Wagou_SyouwaList61</item>
+        <item>@string/Select_Wagou_SyouwaList62</item>
+        <item>@string/Select_Wagou_SyouwaList63</item>
+        <item>@string/Select_Wagou_SyouwaList64</item>
+    </string-array>
+    <!--2.平成List-->
+    <string-array name="Select_Heisei_List">
+        <item>@string/Title_WagouHeiseiList</item>
+        <item>@string/Select_Wagou_HeiseiList1</item>
+        <item>@string/Select_Wagou_HeiseiList2</item>
+        <item>@string/Select_Wagou_HeiseiList3</item>
+        <item>@string/Select_Wagou_HeiseiList4</item>
+        <item>@string/Select_Wagou_HeiseiList5</item>
+        <item>@string/Select_Wagou_HeiseiList6</item>
+        <item>@string/Select_Wagou_HeiseiList7</item>
+        <item>@string/Select_Wagou_HeiseiList8</item>
+        <item>@string/Select_Wagou_HeiseiList9</item>
+        <item>@string/Select_Wagou_HeiseiList10</item>
+        <item>@string/Select_Wagou_HeiseiList11</item>
+        <item>@string/Select_Wagou_HeiseiList12</item>
+        <item>@string/Select_Wagou_HeiseiList13</item>
+        <item>@string/Select_Wagou_HeiseiList14</item>
+        <item>@string/Select_Wagou_HeiseiList15</item>
+        <item>@string/Select_Wagou_HeiseiList16</item>
+        <item>@string/Select_Wagou_HeiseiList17</item>
+        <item>@string/Select_Wagou_HeiseiList18</item>
+        <item>@string/Select_Wagou_HeiseiList19</item>
+        <item>@string/Select_Wagou_HeiseiList20</item>
+        <item>@string/Select_Wagou_HeiseiList21</item>
+        <item>@string/Select_Wagou_HeiseiList22</item>
+        <item>@string/Select_Wagou_HeiseiList23</item>
+        <item>@string/Select_Wagou_HeiseiList24</item>
+        <item>@string/Select_Wagou_HeiseiList25</item>
+        <item>@string/Select_Wagou_HeiseiList26</item>
+        <item>@string/Select_Wagou_HeiseiList27</item>
+        <item>@string/Select_Wagou_HeiseiList28</item>
+    </string-array>
+ </resources>
+ 

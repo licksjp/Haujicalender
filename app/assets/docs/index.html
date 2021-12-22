@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=10"> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<title>法事カレンダー (Light) オンラインマニュアル</title>
+	<meta name="author" content="High Technology Communications, Inc.">
+	<meta name="copyright" content="&copy; 2012 HTC">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="shortcut icon" href="../images/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="../css/default.css">
+	<link rel="stylesheet" type="text/css" href="../css/color.css"> <!--色指定-->
+	<link rel="stylesheet" type="text/css" href="../css/print.css" media="print"> <!--印刷用-->
+	<link rel="stylesheet" type="text/css" href="../css/tablet.css" media="only screen and (min-device-width : 495px) and (max-device-width : 1119px)"> <!--タブレットとネックブック-->
+	<link rel="stylesheet" type="text/css" href="../css/iphone.css" media="only screen and (max-device-width : 494px) and (min-device-width : 320px)"> <!--スマートフォン-->
+	<script src="../js/jquery-1.7.2.min.js" type="text/javascript"></script>
+	<script src="../js/jquery.livequery.min.js" type="text/javascript"></script>
+	<script src="../js/jquery.cookie.js" type="text/javascript"></script> <!--cookie-->
+	<script src="../js/scriptset.js" type="text/javascript"></script> <!--各種Scripts-->
+<style type="text/css">
+	div.logo {
+		text-align:right;
+	}
+	h1 {
+		display: block;
+		border: thin gray solid;
+		background: #185AAC;
+		text-align: center;
+		color: #f3f3f3;
+		margin: 0;
+		padding: 1em 0.4em 1em 0.4em;
+	}
+	h4 {
+		margin-bottom: 0.1em;
+		color: #003366;
+	}
+	p.subtitle {
+		border-left: thin gray solid;
+		border-right: thin gray solid;
+		border-bottom: thin gray solid;
+		font-size: 128.57%;	/* 18px */
+		font-weight: bold;
+		color: navy;
+		background-color: #f3f3f3;
+		margin-top: 0;
+		padding: 0.5em auto 0.5em auto;
+		text-align: center;
+	}
+	#okuduke {
+		margin: 2em auto 5em auto;
+		text-align: center;
+	}
+	div.sample {
+		background: #F5F5DC;
+		width: 90%;
+		border: 0px #6fc198 solid;
+		border-radius: 0.5em;
+		behavior: url(../js/PIE.htc);
+		margin: 1em auto 1em 0;
+		padding: 0.5em 1em 1em 1em;
+	}
+	img.bordered {
+		border: thin black solid;
+	}
+</style>
+<style type="text/css" media="only screen and (max-device-width : 494px) and (min-device-width : 320px)">
+	img {
+		max-width: 270px;
+	}
+</style>
+</head>
+<body>
+<!--
+<div id="menu">
+	<div id="menutitle"><a href="./docs/index.html">オンラインマニュアル<br>SAMPLE&nbsp;&nbsp;目次</a></div>
+	<div id="menutitle2"><a href="./toc_mobile.html">[目次]</a></div>
+	<div id="toc"></div>--> <!--TOC読み込み-->
+
+<!--	<div id="scriptdisabled"><p>お使いのブラウザでJavaScriptを有効にしてください。</p></div>--> <!--JavaScript有効時に消える-->
+<!--
+</div>
+<body>
+
+<div id="menu">
+	<div id="menutitle"><a href="./index.html">オンラインマニュアル<br>SAMPLE&nbsp;&nbsp;目次</a></div>
+	<div id="menutitle2"><a href="./toc_mobile.html">[目次]</a></div>
+	<div id="toc"></div> <!--TOC読み込み-->
+<div id="scriptdisabled"><p>お使いのブラウザでJavaScriptを有効にしてください。</p></div> <!--JavaScript有効時に消える-->
+</div>
+
+<div id="main">
+	<h1>法事カレンダー (Light)<span class="pcipad">・</span><br class="iphoneinline">マニュアル</h1>
+	<p class="subtitle">使用説明書</p>
+
+	<div id="okuduke">
+		<p>更新履歴</p>
+		<p>Ver1.0.0初版：2016/12/03</p>
+	</div>
+	<section>
+		<h3 id="h2_001_h3_001">アプリの説明</h3>
+		<div class="sample">
+			<p>このアプリは、仏教向けの法事カレンダーです。故人の死亡年を入力して、<b>1周忌から<br>50回忌の年</b>を求めることが出来ます。<br><b>全体的に３つのメニューが有ります。</b></p><br><A name=“select1”> <H4>トップ画面のメニュー1:<br>故人の死亡年から何回(周)忌かを求める</H4><br><p>例(和歴入力)<br>故人の死亡年が、平成26年の場合、今年が平成27年ならば、故人は<b>1周忌</b>になります。</A></p><br><A name=“select2”><H4>トップ画面のメニュー2:<br>故人の死亡年を求める</H4><br><p>例(和歴入力)<br>今年が平成27年の場合、故人が死亡して1周忌ならば、故人死亡年は、<b>平成26年</b>になります。</A></p><A name=“select3”><p><H4>トップ画面のメニュー3:<br>法事年一覧リスト</H4><br><p>例(和歴入力)<br>今年の年を入力して、1周忌から50回忌に当たる年を一覧にして表示させます</b><br><br><b>今年が平成27年</b>の場合<br><br>法事年一覧リスト<br>1周忌:<b>平成26年死亡の故人</b><br>3周忌:<b>平成25年死亡の故人</b><br>7周忌:<b>平成21年死亡の故人</b><br>13周忌:<b>平成15年死亡の故人</b><br>17周忌:<b>平成11年死亡の故人</b><br>23周忌:<b>平成5年死亡の故人</b><br>27周忌:<b>平成元年死亡の故人</b><br>33周忌:<b>昭和58年死亡の故人</b><br>37周忌:<b>昭和54年死亡の故人</b><br>50周忌:<b>昭和41年死亡の故人</b><br><br><br>以上の<b>1周忌から50回忌のリストが<br>ダイアログで表示されます</b></p></A>
+		</div>
+
+<!--
+<div id="main">
+	<h1>法事カレンダー (Light) <span class="pcipad">・</span><spin class="iphoneinline">Ver1.3.7</spin></h1>
+	<p class="subtitle">オンラインマニュアル</p>
+</div>
+<div id="okuduke">
+	<p>更新履歴</p>
+	<p>Ver1.0.0初版：2016/12/03</p>
+</div>
+<section>
+<h3 id="h2_001_h3_001">アプリの説明</h3>
+<div class="sample">	
+		<p>このアプリは、仏教向けの法事カレンダーです。故人の死亡年を入力して、<b>1周忌から<br>50回忌の年</b>を求めることが出来ます。<br><b>全体的に３つのメニューが有ります。</b></p><br><A name=“select1”> <H4>トップ画面のメニュー1:<br>故人の死亡年から何回(周)忌かを求める</H4><br><p>例(和歴入力)<br>故人の死亡年が、平成26年の場合、今年が平成27年ならば、故人は<b>1周忌</b>になります。</A></p><br><A name=“select2”><H4>トップ画面のメニュー2:<br>故人の死亡年を求める</H4><br><p>例(和歴入力)<br>今年が平成27年の場合、故人が死亡して1周忌ならば、故人死亡年は、<b>平成26年</b>になります。</A></p><A name=“select3”><p><H4>トップ画面のメニュー3:<br>法事年一覧リスト</H4><br><p>例(和歴入力)<br>今年の年を入力して、1周忌から50回忌に当たる年を一覧にして表示させます</b><br><br><b>今年が平成27年</b>の場合<br><br>法事年一覧リスト<br>1周忌:<b>平成26年死亡の故人</b><br>3周忌:<b>平成25年死亡の故人</b><br>7周忌:<b>平成21年死亡の故人</b><br>13周忌:<b>平成15年死亡の故人</b><br>17周忌:<b>平成11年死亡の故人</b><br>23周忌:<b>平成5年死亡の故人</b><br>27周忌:<b>平成元年死亡の故人</b><br>33周忌:<b>昭和58年死亡の故人</b><br>37周忌:<b>昭和54年死亡の故人</b><br>50周忌:<b>昭和41年死亡の故人</b><br><br><br>以上の<b>1周忌から50回忌のリストが<br>ダイアログで表示されます</b></p></A>
+</div>
+</section>
+<!--
+<h3 id="h2_001_h3_001">ページ内を読むとき</h2>
+<p>ページ内には、見出し・注意事項・ヒントのタイトルなどが表示されています。操作手順とヒントの説明文は、はじめは表示されていません。</p>
+<p>操作手順は、下のレッスンにあるように「操作手順：1～2」という行だけが表示されています。「1～2」は手順数を表しています。手順10まである場合は「操作手順：1～10」と表示されます。</p>
+-->
+<!--
+<div class="sample">
+<h4>【レッスン】操作手順のサンプルを操作してみましょう</h4>
+<p>操作手順を表示するには、[↓開く]ボタンをクリックします。非表示に戻すには、[→とじる]ボタンをクリックします。</p>
+	<h5>操作手順：1～2</h5>
+	<div class="steps">
+		<p class="step"><span class="num">1</span>「△△」欄に入力する。</p>
+		<p class="supplement kome">※○○○の場合は、×××を入力します。</p>
+		<p class="step"><span class="num">2</span>[○○]ボタンをクリックする。</p>
+		<p class="result">××が表示されます。</p>
+	</div>
+</div>
+<p>ヒントは、下のレッスンにあるようにタイトルだけが表示されています。説明文は表示されていません。</p>
+<div class="sample">
+<h4>【レッスン】ヒントのサンプルを操作してみましょう</h4>
+<p>ヒントの説明文を表示するには、[開く/とじる]ボタンをクリックします。</p>
+	<div class="step_hint">
+		<h6>ヒントのサンプル</h6>
+		<p>非表示に戻すには、[開く/とじる]ボタンをクリックします。</p>
+	</div>
+</div>
+-->
+<!--
+<h3 id="h2_001_h3_002">別のページへ移動するとき</h2>
+<p>ページの左上にある目次を使って移動します。目次には章見出し名が表示されています。</p>
+	<h5>操作手順：1～3</h5>
+	<div class="steps">
+		<p class="step"><span class="num">1</span>章見出し名をクリックする。</p>
+		<p class="supplement kome">※図では「マニュアル作成の手引き」をクリックしています。</p>
+		<img src="../images/index01-01.png" class="step_anker">
+		<p class="result">大見出し名が表示されます。</p>
+		<p class="step"><span class="num">2</span>大見出し名をクリックする。</p>
+		<p class="supplement kome">※図では「はじめに」をクリックしています。</p>
+		<img src="../images/index01-02.png" class="step_anker">
+		<p class="result">中見出し名が表示されます。</p>
+		<p class="step"><span class="num">3</span>中見出し名をクリックする。</p>
+		<p class="supplement kome">※図では「本手引きの対象範囲」をクリックしています。</p>
+		<img src="../images/index01-03.png" class="step_anker">
+		<p class="result">選んだ大見出しのページへ移動します。</p>
+		<p>上図のように最初の中見出しをクリックすると、その大見出しの先頭へ移動します。</p>
+	</div>
+-->
+<!--
+<h3 id="h2_001_h3_003">トップページへ戻るとき</h3>
+<p>このページへ戻るには、目次の「オンラインマニュアル SAMPLE 目次」をクリックします。</p>
+		<img src="../images/index01-04.png" class="step_anker">
+
+<h3 id="h2_001_h3_004">目的別に表示を切り替えるとき</h3>
+<p>各ページの見上隅に次のメニューがあるときは、項目を切り替えることで、表示を切り替えることができます。</p>
+		<p class="switch1 noneTitle"></p>
+
+</section>
+-->
+<!--h2_001-->
+<!--
+<section>
+<h2 id="h2_002">本マニュアルの編集方法</h2> 
+<p>本マニュアルと共に提供されるPDFをお読みください。</p>
+<ul>
+	<li>電子ドキュメント編集ガイド_基本編.pdf</li>
+    <li>電子ドキュメント編集ガイド_WebDocGenerator編.pdf</li>
+    <li>電子ドキュメント編集ガイド_応用編.pdf</li>
+</ul>
+-->
+<!--
+</section>  h2_002-->
+
+	<address>Copyright&#169; 2013 High Technology Communicasions, Inc. All Rights Reserved.</address>
+
+</div>
+
+<!--#main-->
+<script type="text/javascript">
+// J$はjQueryの関数。
+var j$ = jQuery;
+
+j$(function(){
+// アコーディオンメニュ前処理
+	// menuid0というクッキーがあれば削除。
+	if ($.cookie("menuid0")) {
+		$.cookie("menuid0", '', { expires: -1 });
+	};
+	// menuid1というクッキーがあれば削除。
+	if ($.cookie("menuid1")) {
+		$.cookie("menuid1", '', { expires: -1 });
+	};
+	// deptというクッキーがあれば削除。
+/*	if ($.cookie("dept")) {
+		$.cookie("dept", '', { expires: -1 });
+	};
+	// dept2というクッキーがあれば削除。
+	if ($.cookie("dept2")) {
+		$.cookie("dept2", '', { expires: -1 });
+	};
+	// positionというクッキーがあれば削除。
+	if ($.cookie("position")) {
+		$.cookie("position", '', { expires: -1 });
+	};
+	// wordsetというクッキーがあれば削除。
+	if ($.cookie("wordset")) {
+		$.cookie("wordset", '', { expires: -1 });
+	};*/
+});
+</script>
+
+</body>
+</html>
+

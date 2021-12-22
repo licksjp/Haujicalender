@@ -1,0 +1,224 @@
+@CHARSET "UTF-8";
+
+/*
+default.css
+(C) 2012 HTC
+
+default.cssとセットで色を設定する。
+*/
+
+#menu {
+	border-color: gray;
+	background: #f3f3f3;
+}
+#search form {
+	border-top-color: Navy;
+}
+#menutitle {
+	color: navy;
+	background-color: #f3f3f3;
+}
+#menutitle a:link, #menutitle2 a:link, #menutitle a:visited, #menutitle2 a:visited {
+	color: navy;
+}
+#menutitle a:hover, #menutitle2 a:hover {
+	color: #dc143c;
+}
+#heading1 {
+	background: url(../images-global/Heading1_mark.png) repeat-y left top;
+	border-top-color: #999999;
+	border-bottom-color: #999999;
+}
+h2 {
+	color: #003366;
+	border-top-color: #999999;
+	border-right-color: #999999;
+}
+h2:before {
+	content: url(../images-global/Heading2_mark.png);
+}	/* IE8以降の場合のみ */
+h3 {
+	color: #003366;
+}
+h3:before {
+	content: url(../images-global/Heading3_mark.png);
+}	/* IE8以降の場合のみ */
+h4:before {
+	content: url(../images-global/Heading4_mark.png);
+}	/* IE8以降の場合のみ */
+h5 {
+	color: #003366;
+}
+h6 {
+	color: Navy;
+}
+.deptname {
+	color: green;
+}
+.posiname {
+	color: #ec6d56;
+}
+p.step {
+	color: Navy;
+}
+img.step_anker {
+	border-color: black;
+}
+table {
+	border-color: gray;
+}
+th.left {
+	border-color: gray;
+	background-color: #deefff;
+}
+th.top {
+	border-color: gray;
+	background-color: #deefff;
+}
+table table th.left {
+	border-color: gray;
+	background-color: #e6f9d9;
+}
+table table th.top {
+	border-color: gray;
+	background-color: #e6f9d9;
+}
+td {
+	border-color: gray;
+	background-color: #ffffff;
+}
+div.step_supple {
+	background: #e6f9d9 url(../images-global/icon_caution.gif) no-repeat 0.5em 0.3em;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-left-color: #999999;
+}
+div.step_point {
+	background: #e6f9d9 url(../images-global/icon_point.gif) no-repeat 0.5em 0.3em;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-left-color: #999999;
+}
+div.step_hint {
+	background: #e6f9d9 url(../images-global/icon_hint.gif) no-repeat 0.5em 0.3em; 
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-left-color: #999999;
+}
+div.box_lined {
+	border-bottom-color: #999999;
+}
+div.flowgroup {
+	background: #F5F5DC;
+}
+div.flowbox {
+	background: #FFFFFF;
+	border-color: #000000;
+}
+.hx_hover {
+	color: #dc143c;
+}
+em {
+	color: #933;
+}
+ul.acc {
+	background-color: #185AAC;
+}
+ul.acc a {
+	color: #feffff;
+}
+ul.acc li ul {
+	background-color: #6095e6;
+}
+ul.acc li ul li ul {
+	background-color: #f3f3f3;
+}
+ul.acc li ul li ul li {
+	background:  url(../images-global/Heading2_mark-s.png) no-repeat left 7px;
+}
+ul.acc li ul li ul li a {
+	color: navy;
+}
+ul.acc li ul li ul li a:hover {
+	color: #dc143c;
+}
+ul.acc li.faq ul li ul li {
+	background:  url(../images-global/q_mark-s.gif) no-repeat left 7px;
+}
+
+
+/****** IE7対応 ***************************************************/
+*+html h2 {
+	background: url(../images-global/Heading2_mark.png) no-repeat left center;
+}
+*+html h3 {
+	background: url(../images-global/Heading3_mark.png) no-repeat 0 2.2em;
+}
+*+html h3.h2next {
+	background: url(../images-global/Heading3_mark.png) no-repeat left center;
+}
+*+html h4 {
+	background: url(../images-global/Heading4_mark.png) no-repeat left center;
+}
+
+/***** FancyZoom対応 ***************************************************/
+#ShadowBox table,
+#ShadowBox td {
+	border-color: transparent;
+	background-color: transparent;
+}
+
+/* iPad (縦向き、横向き両対応)、ネットブック用 -------------------------------------------------------------------------------- */
+@media only screen and (min-device-width : 495px) and (max-device-width : 1119px) {
+.hx_hover {
+	color: Navy;
+}
+}
+
+/* iPhone(縦向き、横向き両対応)、Android用(縦向き、横向き両対応) -------------------------------------------------------------------------------- */
+@media only screen and (max-device-width : 494px) and (min-device-width : 320px) {
+#menutitle2 {
+	background-color: #f3f3f3;
+	color: navy;
+}
+#menutitle2 a:link, #menutitle2 a:visited {
+	color: navy;
+}
+.hx_hover {
+	color: Navy;
+}
+ul.acc li ul li ul li {
+	background:  url(../images-global/Heading2_mark-s.png) no-repeat left 12px;
+}
+}
+
+/* Retinaディスプレイ（2倍） -------------------------------------------------------------------------------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+div.step_supple {
+	background: #e6f9d9 url(../images-global/icon_caution_retine.png) no-repeat 0.5em 0.3em;
+	background-size: 68px;
+}
+div.step_point {
+	background: #e6f9d9 url(../images-global/icon_point_retine.png) no-repeat 0.5em 0.3em;
+	background-size: 68px;
+}
+div.step_hint {
+	background: #e6f9d9 url(../images-global/icon_hint_retine.png) no-repeat 0.5em 0.3em;
+	background-size: 68px; 
+}
+
+/* Retinaディスプレイ（3倍） -------------------------------------------------------------------------------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 3) { 
+div.step_supple {
+	background: #e6f9d9 url(../images-global/icon_caution_retine3.png) no-repeat 0.5em 0.3em;
+	background-size: 68px;
+}
+div.step_point {
+	background: #e6f9d9 url(../images-global/icon_point_retine3.png) no-repeat 0.5em 0.3em;
+	background-size: 68px;
+}
+div.step_hint {
+	background: #e6f9d9 url(../images-global/icon_hint_retine3.png) no-repeat 0.5em 0.3em;
+	background-size: 68px; 
+}
+}

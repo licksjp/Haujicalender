@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+/*
+tablet.css
+(C) 2012 HTC
+
+default.cssの差分。
+*/
+.notpc, #main h2, #main .deptlist {
+	display: block;
+}
+.ipadinline {
+	display: inline;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+#main {
+	margin: 0 0 0 25%;
+	padding: 1% 1% 1% 2%;
+}
+#menu {
+ 	float: left;
+	position: static; /* PC版の目次部は固定。PC版がスクロール時は削除 */
+}
+#menutitle {
+	font-size: 100%;	/* 14px */
+}
+h2 {
+	background-image: none;
+	font-size: 128.57%;	/* 18px */
+	text-indent: -21px; /*最初の行だけ21px分、左に動かす*/
+}
+h3 {
+	font-size: 121.42%;	/* 17px */
+
+}
+img.step_anker, img.step_anker_noborder {
+	max-width: 450px;
+}
+address {
+	clear: both;
+}

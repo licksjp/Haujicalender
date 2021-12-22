@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+
+
+	>
+	<TextView
+			  android:id="@+id/view_screen" 
+			  android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="26sp"
+              android:layout_x="18px"
+              android:layout_y="18px"
+
+              android:textColor="@color/Black"
+              android:lines="9"
+
+              android:gravity="left"
+              android:textStyle="bold"
+
+
+              android:layout_weight="1"
+		      android:elevation="4dp"
+		      android:background="@color/White"
+              android:text="@string/Start_Message"
+				>
+		</TextView>
+
+
+<TableLayout 
+				android:id="@+id/Screen_Color"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@color/Lime"
+				android:textColor="@color/White"
+				android:padding="3dip"
+				android:layout_weight="1"
+				>
+		<TableRow>
+		 <LinearLayout
+             android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_weight="1"
+        >
+
+<Button
+				android:id="@+id/seven_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="35sp"
+				android:layout_x="107px"
+				android:layout_y="190px"
+				android:text="@string/Button_seven"
+				android:layout_weight="1"
+				android:textColor="@color/Black"
+	            android:theme="@style/AccentButtonStyle"
+>
+</Button>
+<Button
+				android:id="@+id/eight_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="35sp"
+				android:layout_x="107px"
+				android:layout_y="190px"
+				android:text="@string/Button_eight"
+				 android:layout_weight="1"
+				 android:textColor="@color/Black"
+	android:theme="@style/AccentButtonStyle"
+
+>
+</Button>
+<Button
+				android:id="@+id/nine_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="35sp"
+				android:layout_x="107px"
+				android:layout_y="190px"
+				android:text="@string/Button_nine"
+				android:layout_weight="1"
+				android:textColor="@color/Black"
+	android:theme="@style/AccentButtonStyle"
+>
+</Button>
+		 
+</LinearLayout>
+</TableRow>
+<TableRow>
+<LinearLayout 
+				 android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_weight="1"
+>
+<Button
+				android:id="@+id/four_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="35sp"
+				android:layout_x="107px"
+				android:layout_y="190px"
+				 android:layout_weight="1"
+				android:text="@string/Button_four"
+				android:textColor="@color/Black"
+	android:theme="@style/AccentButtonStyle"
+>
+</Button>
+<Button
+				android:id="@+id/five_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="35sp"
+				android:layout_x="107px"
+				android:layout_y="190px"
+				android:text="@string/Button_five"
+				 android:layout_weight="1"
+				 android:textColor="@color/Black"
+	android:theme="@style/AccentButtonStyle"
+>
+</Button>
+<Button
+				android:id="@+id/six_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="35sp"
+				android:layout_x="107px"
+				android:layout_y="190px"
+				android:text="@string/Button_six"
+				 android:layout_weight="1"
+				 android:textColor="@color/Black"
+	android:theme="@style/AccentButtonStyle"
+>
+</Button>
+
+</LinearLayout>
+</TableRow>
+<TableRow>
+<LinearLayout
+  android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_weight="1"
+            >
+<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="35sp"
+				android:layout_x="107px"
+				android:layout_y="190px"
+				android:text="@string/Button_one" 
+				android:id="@+id/one_button"
+				 android:layout_weight="1"
+				 android:textColor="@color/Black"
+	android:theme="@style/AccentButtonStyle"
+>
+</Button>
+<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="35sp"
+				android:layout_x="107px"
+				android:layout_y="190px"
+				android:text="@string/Button_two" 
+				android:id="@+id/two_button"
+				 android:layout_weight="1"
+				 android:textColor="@color/Black"
+	android:theme="@style/AccentButtonStyle"
+>
+</Button>
+<Button
+				android:id="@+id/three_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="35sp"
+				android:layout_x="107px"
+				android:layout_y="190px"
+				android:text="@string/Button_three"
+				 android:layout_weight="1"
+				 android:textColor="@color/Black"
+	android:theme="@style/AccentButtonStyle"
+
+>
+</Button>
+</LinearLayout>
+</TableRow>
+<TableRow>
+<LinearLayout 
+			android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_weight="1"
+>
+<Button
+				android:id="@+id/clear_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="32sp"
+				android:layout_x="107px"
+				android:layout_y="200px"
+				android:text="@string/Button_clear"
+				 android:layout_weight="1"
+				 android:textColor="@color/Red"
+	android:theme="@style/AccentButtonStyle"
+				>
+</Button>
+<Button
+				android:id="@+id/zero_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="34sp"
+				android:layout_x="107px"
+				android:layout_y="190px"
+				android:text="@string/Button_zero"
+				 android:layout_weight="1"
+				 android:textColor="@color/Black"
+	android:theme="@style/AccentButtonStyle"
+>
+</Button>
+<Button
+				android:id="@+id/exe_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="32sp"
+				android:layout_x="107px"
+				android:layout_y="190px"
+				android:textColor="@color/Red"
+				android:text="@string/Button_EXE"
+				 android:layout_weight="1"
+	android:theme="@style/AccentButtonStyle"
+>
+</Button>
+
+</LinearLayout>
+</TableRow>
+	<com.google.android.gms.ads.AdView
+		android:id="@+id/adView2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"
+		ads:adSize="BANNER"
+		ads:adUnitId="@string/banner_ad_unit_id">
+
+	</com.google.android.gms.ads.AdView>
+<!--
+2019.12.3
+リリース前に、
+banner_ad_unit_id_Testをbanner_ad_unit_id(_Testを削除）
+変えてください
+-->
+</TableLayout> 
+</LinearLayout>

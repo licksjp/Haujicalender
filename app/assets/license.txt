@@ -1,0 +1,44 @@
+-----------電子ドキュメント・テンプレート【利用許諾条件】-----------
+以下の利用許諾条件に同意の上、ご利用ください。
+
+・ダウンロードしたHTMLファイル、CSSファイル、画像ファイルおよびJavaScript（scriptset.js）は自己の業務ならびに製品、サービスのみで利用し、第三者の業務ならびに製品、サービスのために利用しません。
+　※第三者の業務ならびに製品、サービスのために利用される場合は、別途契約内容が変りますのでお問い合わせください。 
+・ダウンロードしたCSSファイルは、表示する要素の色を変更する目的以外で改変しません。ダウンロードした画像ファイルは改変しません。 
+・ダウンロードしたCSSファイル、画像ファイルおよびJavaScript（scriptset.js）、およびその改変物の再配布は一切行いません。 
+・上記内容に反する行為を行った場合、ダウンロードしたHTMLファイル、CSSファイル、画像ファイルおよびJavaScript（scriptset.js）は直ちに使用を中止します。また同行為によって不当に得た利益全額およびハイテクノロジーコミュニケーションズ株式会社（以降、当社）が被った損害額すべてを賠償金として支払うものとします。 
+・ダウンロードしたHTMLファイル、CSSファイル、画像ファイルおよびJavaScript（scriptset.js）の利用により、直接または間接的に損害が生じた場合、当社は一切の責任を負いません。 
+・当社との間で訴訟が生じた場合、東京地方裁判所もしくは東京簡易裁判所を管轄裁判所とします。 
+・ブラウザの新バージョンに対応した最新版を随時公開する予定ですが、時期をお約束するものではありません。 
+
+
+
+●JavaScriptライブラリーの利用許諾条件の承認
+本テンプレートでは、以下のJavaScriptライブラリーを使用しています。以下のサイトに掲載されている利用許諾条件（License）を必ずご確認ください。
+
+jQuery project	(MIT License)
+http://jquery.org/license/
+
+jquery.livequery.min.js	(MIT License and GPL Version 2)
+http://plugins.jquery.com/tag/livequery/
+
+jquery.cookie.js	(MIT License and GPL)
+http://plugins.jquery.com/cookie/
+
+html5shiv.js	(MIT License and GPL Version 2)
+http://code.google.com/p/html5shiv/
+
+PIE.htc	(Apache License Version 2 or GPL Version 2)
+http://css3pie.com/
+
+FancyZoom.js	(GPL)
+http://www.dfc-e.com/metiers/multimedia/opensource/jquery-fancyzoom/
+※画像の拡大機能を使用しない場合、本ファイルを使う必要はありません。
+
+
+2013年12月1日
+社名	ハイテクノロジー・コミュニケーションズ株式会社
+住所	〒113-0033
+	東京都文京区本郷2-17-12 プロト本郷第2ビル3F
+電話	03-5840-8480
+E-mail	info@htc-inc.co.jp
+代表	岡村克也

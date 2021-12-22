@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+
+/*
+print.css
+(C) 2012 HTC
+
+default.cssの差分。
+*/
+
+#menu, .noprint {
+	display: none;
+}
+#main {
+	margin: 0;
+	padding: 5px;
+}
+div.steps, .hideblock{
+	display: block !important;/*[2012.10.4]jqueryの影響で表示されないパターンがあったため!importantを追記*/
+}
+#heading1 {
+	border-top-color: gray;
+	border-bottom-color: gray;
+	border-left-color: gray;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+}
+div.reading #heading1 {
+	border-left: none;
+}
+#header {
+	font-size: 78.5%;	/* 11px (8.25pt)  */
+}
+div.onepoint{
+	background-image:none;
+}
+
+div.onepoint h4 {
+	padding-left: 0.4em;
+}
+div.onepoint h4:before {
+	content: url(../images-global/icon_point.gif);
+	margin-right: 10px;
+}
+h6 {
+	padding: 0 5px 0.3em 0;
+}
+div.step_supple, div.step_point, div.step_hint {
+	background-image: none;
+	border-bottom: 1px #999999 solid;
+	page-break-inside: avoid;
+}
+div.step_supple h6:before {
+	content: url(../images-global/icon_caution_bk.gif);
+	margin-right: 5px;
+	/*margin-left:0.3em;*/
+}
+div.step_point h6:before {
+	content: url(../images-global/icon_point_bk.gif);
+	margin-right: 5px;
+}
+div.step_hint h6:before {
+	content: url(../images-global/icon_hint_bk.gif);
+	margin-right: 5px;
+}
+.hx_hover {
+	color: Navy;
+}
+img.step_anker, img.step_anker_noborder {
+	page-break-inside: avoid;
+}
+
+*{-webkit-print-color-adjust: exact;}/*[2012.10.4]Chromeでbackground系が印刷されるように追記*/
+
+/*[12/10/11]追記:IE7対応*/
+/****** IE7対応 ***************************************************/
+*+html div.onepoint h4{
+	background:url(../images-global/icon_point.gif) 0em 0em no-repeat;
+}
+
+*+html div.onepoint h4 {padding-left:80px;}
+
+*+html h6 {padding-left:80px;}
+
+*+html div.step_supple h6{
+	background: url(../images-global/icon_caution_bk.gif) 0em -0.2em no-repeat;
+}
+*+html div.step_point h6 {
+	background: url(../images-global/icon_point_bk.gif) 0em -0.2em no-repeat;
+}
+*+html div.step_hint h6 {
+	background: url(../images-global/icon_hint_bk.gif) 0em -0.2em no-repeat;
+}
+

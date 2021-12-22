@@ -1,0 +1,397 @@
+@CHARSET "UTF-8";
+
+/*
+default.css
+(C) 2013 HTC
+
+ベースはパソコン用。
+更に、差分として以下を列記。
+・印刷用
+・iPad (縦向き、横向き両対応)、ネットブック用
+・iPhone(縦向き、横向き両対応)、Android用（横置き時はiPad用を上書き）
+*/
+
+/* clearfix */
+#heading1, .answer {
+	zoom:1;
+} /*IE6,7用*/
+.answer:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+img {-ms-interpolation-mode: bicubic;}	/* IE7対応 */
+
+body {
+	font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "MS PGothc", "ＭＳ Ｐゴシック", sans-serif;
+	font-size: 100.01%;	/* 初期値16px (12pt)を想定 */
+	margin: 0;
+	padding: 0;
+}
+#main {
+	font-size: 87.5%;	/* 14px (10.5pt) */
+	margin: 0 0 0 25%;
+	padding: 1% 3% 3% 3%;
+}
+#menu {
+	font-size: 87.5%;	/* 14px (10.5pt) */
+	width: 25%;
+	padding: 0;
+	border-width: thin;
+	border-style: solid;
+	border-radius: 0 0 0.5em 0;
+	position: fixed; /* 目次部が固定 */
+	top: 0;
+	left: 0;
+}
+#search form {
+	margin: 0;
+	padding: 0;
+	border-top-width: 1px;
+	border-top-style: solid;
+	text-align: center;
+}
+#menutitle {
+	font-size: 128.57%;	/* 18px */
+	font-weight: bold;
+	margin: 0;
+	padding: 0.25em 0 0.25em 0;
+	text-align: center;
+	line-height: 120%;
+}
+#menutitle2, #menutitle3, .hideblock, .hideblock2, .notpc {
+	display: none;
+}
+#menutitle a, #menutitle2 a {
+	text-decoration: none;
+}
+#main p {
+	line-height: 160%;
+}
+#main li {
+	margin: 0 0 0.3em -1.5em;
+	line-height: 160%;
+}
+#heading1 {
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	margin: 0 0 1em 0;
+	padding: 0 0.5em 0 50px;
+}
+#header {
+	font-size: 87.5%;	/* 14px (10.5pt) */
+	text-align: right;
+	margin: 0.75em 0.5em 0 0;
+}
+h1 {
+	font-size: 142.85%;	/* 20px */
+	line-height: 100%;
+	margin: 0.2em 0.5em 0.2em 0;
+}
+h2 {
+	font-size: 135.71%;	/* 19px */
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-top-right-radius: 0.5em;
+	margin: 2em 0 0 0;
+	padding: 0.2em 0 0.2em 21px; /*21px分、右に動かす*/
+	text-indent: -21px; /*最初の行だけ21px分、左に動かす*/
+}
+h2:before {
+	margin-right: 5px;
+	vertical-align: middle;
+}	/* IE8以降の場合のみ */
+h3 {
+	font-size: 121.42%;	/* 17px */
+	margin: 0 0 0.5em 0;/* [12/10/24修正]IE8以下で隙間ができない不具合があったためmargin-top:2em;だったのをpadding-top:2em;に変更 */
+	padding: 2em 0 0 15px; /*15px分、右に動かす*/
+	text-indent: -15px; /*最初の行だけ15px分、左に動かす*/
+}
+h3:before {
+	margin-right: 5px;
+	vertical-align: middle;
+}	/* IE8以降の場合のみ */
+h3.h2next {
+	padding-top: 0.5em;
+}
+h4 {
+	font-size: 107.14%;	/* 15px */
+	margin: 2em 0 0 0;
+	padding: 0 0 0 15px;
+	text-indent: -15px; /*最初の行だけ15px分、左に動かす*/
+}
+h4:before {
+	margin-right: 8px;
+	vertical-align: bottom;
+}	/* IE8以降の場合のみ */
+h5 {
+	font-size: 107.14%;	/* 15px */
+	margin: 0.5em 0 0 0;
+	padding: 0;
+}
+h6 {
+	font-size: 107.14%;	/* 15px */
+	/* font-size: 87.5%;*/ 	/* 14px (10.5pt) */
+	font-weight: bold;
+	margin: 0.3em 0.5em 0.3em 0.5em;
+	padding: 0em 20px 0.3em 80px;
+	/* padding: 0.4em 20px 0.3em 80px; */
+}
+p.deptlist {
+	font-size: 78.5%;	/* 11px (8.25pt)  */
+	text-align: right;
+	margin: 0 0.5em 0 0;
+	padding: 0;
+}
+div.steps {
+	display: none;
+}
+p.step {
+	font-size: 107.14%;	/* 15px */
+	font-weight: bold;
+	margin: 1.4em 0 0.3em 0;
+	padding-left: 2em; /*2em分、右に動かす*/
+	text-indent: -2em; /*最初の行だけ2em分、左に動かす*/
+}
+p.step .num {
+	font-size: 135.71%;	/* 19px */
+	font-weight: bold;
+	margin: 0 0.8em 0 0;
+}
+p.result, ul.result, p.supplement, ul.supplement, div.steps ul, div.steps ol {
+/*	font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "MS PGothc", "ＭＳ Ｐゴシック", sans-serif; */
+	margin: 0 0.5em 0.3em 30px;
+}
+.kome {
+	padding-left: 1em; /*1em分、右に動かす*/
+	text-indent: -1em; /*最初の行だけ1em分、左に動かす*/
+}
+img.step_anker {
+	border-width: 1px;
+	border-style: solid;
+	margin: 0 0 0 30px;
+	max-width: 450px;
+}
+img.step_anker_noborder {
+	border-width: 0;	/* IE/FireFoxで青枠が出る件を修正 */
+	margin: 0 0 0 30px;
+	max-width: 450px;
+}
+table {
+	border-width: 2px;
+	border-style: outset;
+	border-collapse:collapse;
+}
+table.body_table {
+	margin: 0.2em 0 0.5em 0;
+}
+table.step_table {
+	margin: 0.2em 0 0.5em 30px;
+}
+th.left {
+	border-width: 1px;
+	border-style: solid;
+	font-weight: normal;
+	text-align: left;
+	padding: 4px;
+}
+th.top {
+	border-width: 1px;
+	border-style: solid;
+	font-weight: normal;
+	text-align: center;
+	padding: 4px;
+}
+td {
+/*	font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "MS PGothc", "ＭＳ Ｐゴシック", sans-serif; */
+	border-width: 1px;
+	border-style: solid;
+	padding: 4px;
+}
+div.step_supple {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-left-width: 1px;
+	border-left-style: solid;
+	margin: 1em 0 1em 30px;
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	border-radius: 0.5em 0.5em 0 0;
+}
+div.step_point {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-left-width: 1px;
+	border-left-style: solid;
+	margin: 1em 0 1em 30px;
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	border-radius: 0.5em 0.5em 0 0;
+}
+div.step_hint {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-left-width: 1px;
+	border-left-style: solid;
+	margin: 1em 0 1em 30px;
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	border-radius: 0.5em 0.5em 0 0;
+}
+div.box_lined {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+div.step_supple *, div.step_point *, div.step_hint * {
+	margin: 0.3em 0 0.3em 0;
+}
+div.step_supple img, div.step_point img, div.step_hint img {
+	margin: 0.3em 0 0.3em 1.4em;
+}
+/*
+div.step_supple p, div.step_point p, div.step_hint p, div.step_supple ul, div.step_point ul, div.step_hint ul, div.step_supple ol, div.step_point ol, div.step_hint ol {
+	font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "MS PGothc", "ＭＳ Ｐゴシック", sans-serif;
+}
+div.step_supple p.deptlist, div.step_point p.deptlist, div.step_hint p.deptlist {
+	font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "MS PGothc", "ＭＳ Ｐゴシック", sans-serif;
+}
+*/
+div.flowgroup {
+	width: 75%;
+	text-align: center;
+	border: 0px;
+	border-radius: 0.5em;
+	behavior: url(../js/PIE.htc);
+	margin: 1em auto 1em 2.6em;
+	padding: 1em;
+}
+div.flowbox {
+	font-size: 108.3%;
+	border-width: thin;
+	border-style: solid;
+	padding: 0.5em 1em 0.5em 1em;
+	text-align: center;
+}
+img.flow {
+	border-width: 0;	/* IE/FireFoxで青枠が出る件を修正 */
+	margin: 0.7em auto 0.3em auto;
+}
+.hx_hover {
+	cursor:pointer;
+}
+address {
+	font-size: 71.42%;	/* 10px */
+	text-align: right;
+}
+em {
+	font-weight: bold;
+}
+ul.acc {
+	margin: 0;
+	padding: 0.6em;
+	list-style: none;
+	clear: both;	/* ボタン関連のスタイル */
+}
+ul.acc a {
+	display: block;
+	text-decoration: none;
+	outline: none;
+	padding: 0.4em 0;
+	line-height: 1.4em;
+	font-size: 92.85%;	/* 13px */
+	cursor: pointer;
+}
+ul.acc li ul {
+	margin: 0;
+	padding: 0.6em;
+	list-style: none;
+	border-radius: 0.5em;
+}
+ul.acc li ul li ul li {
+	padding: 0 14px;
+}
+ul.acc li.faq ul li ul li {
+	padding: 0 14px;
+}
+p.button {
+	margin: 0.5em 1em 0.5em 0.5em;
+	line-height: 2em;
+	text-align: right;
+}
+button {
+	cursor: pointer;
+	line-height: 1.4em;
+	padding: 0.2em 0.6em;
+}
+#print, .iphoneinline, .ipadinline {
+	display: none;
+}
+input.noprint {
+	margin: 0 0.4em 0 0;
+}
+div.step_supple p > img, div.step_point p > img, div.step_hint p > img {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+div.step_supple li > img, div.step_point li > img, div.step_hint li > img {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+p > img, li > img {
+	vertical-align: middle;
+}
+
+/****** IE7対応 ***************************************************/
+*+html h2 {
+	text-indent:0;
+}
+*+html h3{
+	text-indent:0;
+}
+*+html h4{
+	text-indent:0;
+}
+*+html #main li {
+	margin-left:0;
+}
+*+html #main div.steps li {
+	margin-left:1.5em;
+}
+*+html #main div.step_supple li,
+*+html #main div.step_point li,
+*+html #main div.step_hint * li{
+	margin-left:1.5em;
+}
+/****** IE6対応 ***************************************************/
+* html a.fancyzoom img.step_anker,
+* html a.fancyzoom img.step_anker_noborder{
+	width:450px;
+}
+* html #main div.steps li {
+	margin-left:1.5em;
+}
+* html #main div.step_supple li,
+* html #main div.step_point li,
+* html #main div.step_hint * li{
+	margin-left:1.5em;
+}
+/***** FancyZoom対応 ***************************************************/
+#ShadowBox table,
+#ShadowBox td {
+	border-width:0;
+	padding:0;
+}
+/***** FancyZoom対応 ***************************************************/
+#ShadowBox table,
+#ShadowBox td {
+	border-width:0;
+	padding:0;
+}

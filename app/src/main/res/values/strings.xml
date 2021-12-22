@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!-- バージョンダイアログ ここから -->
+    <!--  Version パート  -->
+<resources>
+    <string name="Version_Title" >バージョン</string>
+    <string name="VersionMessage">Title:法事カレンダー(Light)\nVer:1.7.1.GooglePlay.2021.12.16\n宗教:(仏 教)\nAuthor:licks\nE-mail:licksjp@gmail.com\nHP:http://bahoosoft.net/\nこのアプリの仏教向けの\n法事カレンダーです</string>
+    <string name="banner_ad_unit_id_Test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7821909322657049/6859340493</string>
+    <string name="FB_id">1124845534383706</string>
+    <string name="hello">Hello World, Base_file!</string>
+    <string name="app_name">法事カレンダー(仏教編)</string>
+    <!-- スピーチメッセージ　ここから-->
+    <string name="speach_All_Clear_Message">オールクリアしました</string>
+    <string name="speach_Message_start_Message1">準備OKです、入力ボタンを押して下さい</string>
+    <string name="speach_please_Talk_Message2">話してください</string>
+    <string name="speach_please_Talk_Message_TopMenu1_Select">メニューの番号1から3のボタンを入れて、入力ボタンを押して下さい</string>
+    <!-- 西暦、和暦の選択　　 -->
+    <string name="speach_please_Talk_Message_Select_Nengou_Wareki_seireki">年号の選択です。西暦か、和暦か、その番号を入れて下さい。</string>
+    <string name="speach_please_Talk_Message_Select_Nengou_Wareki_Select1">和暦が選択されました。よろしければ入力ボタンを押して下さい。</string>
+    <string name="speach_please_Talk_Message_Select_Nengou_Wareki_Select2">西暦が選択されました。よろしければ入力ボタンを押して下さい。</string>
+    <!-- 和暦の種類の選択　　 -->
+    <!--和暦の年号選択 平成 or 昭和の選択-->
+    <string name="speach_please_Talk_Message_Select_Nengou_Wareki_type_No_Select">和暦の種類の選択です。平成または、昭和で、その番号を入れて下さい。</string>
+    <string name="speach_please_Talk_Message_Select_Nengou_Wareki_type_Select1">平成が選択されました。よろしければ入力ボタンを押して下さい。</string>
+    <string name="speach_please_Talk_Message_Select_Nengou_Wareki_type_Select2">昭和が選択されました。よろしければ入力ボタンを押して下さい。</string>
+    <!--確認メッセージ-->
+    <string name="speach_please_Talk_Message_Check_Message1_Select0">もう一度入れ直して下さい</string>
+    <string name="speach_please_Talk_Message_Check_Message1">%1$dが選ばれました。よろしければ入力ボタンを押して下さい。</string>
+
+    <!-- Select1 和歴入力、平成入力 -->
+    <string name="speach_please_Talk_Select_Wareki_Input_Heisei">故人の死亡年を入れてください。こじんのしぼうとしは、平成何年ですか？(平成1年から平成28年のあいだですうじをいれてください)</string>
+    <!-- Select1 和歴入力、昭和入力 -->
+    <string name="speach_please_Talk_Select_Wareki_Input_Syouwa">故人の死亡年を入れてください\nこじんのしぼうとしは、昭和何年ですか？\n昭和1年から昭和64年のあいだですうじをいれてください</string>
+    <!-- Select2 西歴入力 -->
+    <string name="speach_please_Talk_Select_Wareki_Input_Seireki">故人のしぼうとしは、せいれきなんねんですか？、4桁の年代を入れて下さい</string>
+
+    <!-- Select2 西歴入力 今年の年入力-->
+    <string name="speach_please_Talk_Select_Wareki_Input_Seireki_ThisYear">今年はせいれきなんねんですか？、せいれき4けたをいれて、にゅうりょくぼたんをおしてください</string>
+　　  <!-- 1周忌 -->
+    <string name="speach_please_Talk_Result_Death_Year1_Seireki">今年せいれき%1$d年\nせいれき%2$d年死亡の故人は\n今年は1周忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 3回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year3_Seireki">今年せいれき%1$d年\nせいれき%2$d年死亡の故人は\n今年は3回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 7回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year7_Seireki">今年せいれき%1$d年\nせいれき%2$d年死亡の故人は\n今年は7回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 13回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year13_Seireki">今年せいれき%1$d年\nせいれき%2$d年死亡の故人は\n今年は13回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 23回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year23_Seireki">今年せいれき%1$d年\nせいれき%2$d年死亡の故人は\n今年は23回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 27回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year27_Seireki">今年せいれき%1$d年\nせいれき%2$d年死亡の故人は\n今年は27回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 33回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year33_Seireki">今年せいれき%1$d年\nせいれき%2$d年死亡の故人は\n今年は33回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 37回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year37_Seireki">今年せいれき%1$d年\nせいれき%2$d年死亡の故人は\n今年は37回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 50回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year50_Seireki">今年せいれき%1$d年\nせいれき%2$d年死亡の故人は\n今年は50回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- その他 -->
+    <string name="speach_please_Talk_Result_Death_Year_Other_Seireki">今年せいれき%1$d年\nせいれき%2$d年死亡の故人は\n今年は法事はありません\n\n\n\n\n\nクリアボタンを押してください</string>
+
+
+
+
+
+    　<!-- 1周忌 -->
+    <string name="speach_please_Talk_Result_Death_Year1_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は1周忌になります</string>
+    <!-- 3回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year3_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は3回忌になります</string>
+    <!-- 7回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year7_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は7回忌になります</string>
+    <!-- 13回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year13_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は13回忌になります</string>
+    <!-- 23回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year23_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は23回忌になります</string>
+    <!-- 27回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year27_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は27回忌になります</string>
+    <string name="speach_please_Talk_Result_Death_Year27_Heisei_Patern2">今年平成%1$d年\n平成元年死亡の故人は\n今年は27回忌になります</string>
+    <!-- 33回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year33_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は33回忌になります</string>
+    <!-- 37回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year37_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は37回忌になります</string>
+    <!-- 50回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year50_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は50回忌になります</string>
+    <!-- その他 -->
+    <string name="speach_please_Talk_Result_Death_Year_Other_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は法事はありません</string>
+
+
+    <!-- 昭和 -->
+    <!-- 1周忌 -->
+    <string name="speach_please_Talk_Result_Death_Year1_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は1周忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 3回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year3_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は3回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 7回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year7_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は7回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 13回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year13_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は13回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 17回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year17_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は17回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+
+    <!-- 23回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year23_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は23回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 27回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year27_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は27回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 33回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year33_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は33回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 37回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year37_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は37回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 50回忌 -->
+    <string name="speach_please_Talk_Result_Death_Year50_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は50回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- その他 -->
+    <string name="speach_please_Talk_Result_Death_Year_Other_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は法事はありません\n\n\n\n\n\nクリアボタンを押してください</string>
+
+
+
+
+<!---ボイス入力-->
+    <!--選択肢２-->
+    <!-- Select2 和暦入力 -->
+    <string name="speach_please_Talk_Input_Dead_Year">故人のしぼうとしを求めます\n故人は今年は、何回忌ですか？</string>
+    <!-- Select1 and Select2共通 -->
+    <string name="speach_please_Talk_Push_Select_Message_No_Select">故人の死亡年の年号を入力します\n和暦か西暦かの番号を選んでください</string>
+    <string name="speach_please_Talk_Push_Select_Message_Select1">われきがせんたくされました、よろしければにゅうりょくぼたんをおしてください</string>
+    <string name="speach_please_Talk_Push_Select_Message_Select2">せいれきがせんたくされました、よろしければにゅうりょくぼたんをおしてください</string>
+
+
+    <!-- 1周忌 -->
+    <string name="speach_please_Talk_Result_Dead_year_Patern0_Heisei">今年:%1$d周忌\n故人の死亡年は平成%2$d年です</string>
+    <string name="speach_please_Talk_Result_Dead_year_Patern1_Heisei">今年:%1$d回忌\n故人の死亡年は平成%2$d年です</string>
+    <string name="speach_please_Talk_Result_Dead_year_Patern1_Heisei2">今年:%1$d回忌\n故人の死亡年は平成元年です</string>
+
+
+
+
+    <!-- Select1 and Select2 和歴入力、今年の年 -->
+    <string name="speach_please_Talk_Select_Wareki_Input_Heisei_This_Year">今年は平成何年ですか?\n(平成27年以降で入力してください)</string>
+
+    <string name="speach_please_Talk_Result_Dead_year_Patern2_Syouwa">今年:%1$d回忌\n故人の死亡年は昭和%2$d年です</string>
+    <!-- Select2 西暦入力 -->
+    <string name="speach_please_Talk_Result_Dead_year_Patern1_Seireki">今年西暦%1$d年\n今年:%2$d周忌\n故人の死亡年は西暦%3$d年です</string>
+    <string name="speach_please_Talk_Result_Dead_year_Patern2_Seireki">今年西暦%1$d年\n今年:%2$d回忌\n故人の死亡年は西暦%3$d年です</string>
+
+
+<!--Menu３ ボイス入力−−＞
+ <!- 2.Result 法事年一覧 西暦-->
+    <string name="speach_please_Talk_Result_Houji_Tosi_List_Seireki">今年:西暦%1$d年の法事としの一覧リストです</string>
+    <!-- 1.Result 法事年一覧 和暦-->
+    <string name="speach_please_Talk_Result_Houji_Tosi_List_Wareki">今年:平成:%1$d年の法事としの一覧リストです</string>
+
+
+    <!-- 広告表示 ここから -->
+    <string name="app_namwe_advance">Base screen(広告欄）</string>
+    <string name="app_name0">Activity0\nActivity1</string>
+	<string name="app_name1">広 告 欄</string>
+    <string name="activity_animation_duration">300</string>
+    <!-- 広告表示　ここまで -->
+    <string name="Data_Statas0_No_Data">Data0:(No Data)</string>
+    <string name="Data_Statas1_No_Data">Data1:(No Data)</string>
+    <string name="Data_Statas2_No_Data">Data2:(No Data)</string>
+    <string name="Data_Statas3_No_Data">Data3:(No Data)</string>
+    <string name="Data_Statas4_No_Data">Data4:(No Data)</string>
+    <string name="Data_Statas5_No_Data">Data6:(No Data)</string>
+    <string name="Data_Statas6_No_Data">Data6:(No Data)</string>
+    <string name="Data_Statas7_No_Data">Data7:(No Data)</string>
+    <string name="Data_Statas8_No_Data">Data8:(No Data)</string>
+    <string name="Data_Statas9_No_Data">Data9:(No Data)</string>
+    
+     <string name="Data_Statas_rate">No Data</string>
+    <!-- 共通部分 Base file ここから-->
+    <!-- Top Menu1 -->
+    <string name="Push_Select_TopMenu_No_Select">番号を選んでください\n1:故人の死亡年から何回(周)忌か\n2.故人の死亡年を求める\n3.法事の年一覧リスト\n\n\n\n\n選択番号:%1$d.無選択</string>
+    <string name="Push_Select_TopMenu_Select1">番号を選んでください\n1:故人の死亡年から何回(周)忌か\n2.故人の死亡年を求める\n3.法事の年一覧リスト\n\n\n\n\n選択番号:%1$d.故人の死亡年から何回(周)忌か</string>
+    <string name="Push_Select_TopMenu_Select2">番号を選んでください\n1:故人の死亡年から何回(周)忌か\n2.故人の死亡年を求める\n3.法事の年一覧リスト\n\n\n\n\n選択番号:%1$d.故人の死亡年を求める</string>
+    <string name="Push_Select_TopMenu_Select3">番号を選んでください\n1:故人の死亡年から何回(周)忌か\n2.故人の死亡年を求める\n3.法事の年一覧リスト\n\n\n\n\n選択番号:%1$d.法事の年一覧リスト</string>
+    <!-- Select1 and Select2共通 -->
+    <string name="Push_Select_Message_No_Select">故人の死亡年の年号を入力します\n和暦入力か西暦入力かを選んでください\n1:和歴入力\n2.西歴入力\n\n\n\n選択番号:%1$d.無選択</string>
+    <string name="Push_Select_Message_Select1">故人の死亡年の年号を入力します\n和暦入力か西暦入力かを選んでください\n1:和歴入力\n2.西歴入力\n\n\n\n選択番号:%1$d.和歴入力\n入力ボタンで決定</string>
+    <string name="Push_Select_Message_Select2">故人の死亡年の年号を入力します\n和暦入力か西暦入力かを選んでください\n1:和歴入力\n2.西歴入力\n\n\n\n選択番号:%1$d.西歴入力\n入力ボタンで決定</string>
+    <!-- Select1 and Select2 和歴入力の選択 -->
+    <string name="Select_Wareki_Select_No_Select">番号を選んでください\n1:平成\n2.昭和\n\n\n\n選択番号:%1$d.無選択</string>
+    <string name="Select_Wareki_Select_Select1">番号を選んでください\n1:平成\n2.昭和\n\n\n\n\n選択番号:%1$d.平成\n入力ボタンで決定</string>
+    <string name="Select_Wareki_Select_Select2">番号を選んでください\n1:平成\n2.昭和\n\n\n\n\n選択番号:%1$d.昭和\n入力ボタンで決定</string>
+    <!-- Select1 和歴入力、平成入力 -->
+    <string name="Select_Wareki_Input_Heisei">故人の死亡年を入れてください\n平成何年ですか？\n(平成1年〜平成27年)\n\n\n\n平成:%1$d年</string>
+    <!-- Select1 和歴入力、昭和入力 -->
+    <string name="Select_Wareki_Input_Syouwa">故人の死亡年を入れてください\n昭和何年ですか？\n(昭和1年〜昭和64年)\n\n\n\n昭和:%1$d年</string>
+   <!-- Select1 and Select2 和歴入力、今年の年 -->
+   <string name="Select_Wareki_Input_Heisei_This_Year">今年は平成何年ですか?\n(平成27年以降で入力してください)\n\n\n\n平成:%1$d年</string>
+   <!-- 1.Result -->
+   <!-- 平成 -->
+    <!-- 1周忌 -->
+    <string name="Result_Death_Year1_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は1周忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 3回忌 -->
+    <string name="Result_Death_Year3_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は3回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 7回忌 -->
+    <string name="Result_Death_Year7_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は7回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 13回忌 -->
+    <string name="Result_Death_Year13_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は13回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 23回忌 -->
+    <string name="Result_Death_Year23_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は23回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 27回忌 -->
+    <string name="Result_Death_Year27_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は27回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <string name="Result_Death_Year27_Heisei_Patern2">今年平成%1$d年\n平成元年死亡の故人は\n今年は27回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 33回忌 -->
+    <string name="Result_Death_Year33_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は33回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 37回忌 -->
+    <string name="Result_Death_Year37_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は37回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 50回忌 -->
+    <string name="Result_Death_Year50_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は50回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- その他 -->
+    <string name="Result_Death_Year_Other_Heisei">今年平成:%1$d年\n平成%2$d年死亡の故人は\n今年は法事はありません\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    
+    
+    
+    <!-- 昭和 -->
+    <!-- 1周忌 -->
+    <string name="Result_Death_Year1_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は1周忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 3回忌 -->
+    <string name="Result_Death_Year3_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は3回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 7回忌 -->
+    <string name="Result_Death_Year7_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は7回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 13回忌 -->
+    <string name="Result_Death_Year13_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は13回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 17回忌 -->
+    <string name="Result_Death_Year17_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は17回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+
+    <!-- 23回忌 -->
+    <string name="Result_Death_Year23_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は23回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 27回忌 -->
+    <string name="Result_Death_Year27_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は27回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 33回忌 -->
+    <string name="Result_Death_Year33_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は33回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 37回忌 -->
+    <string name="Result_Death_Year37_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は37回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 50回忌 -->
+    <string name="Result_Death_Year50_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は50回忌になります\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- その他 -->
+    <string name="Result_Death_Year_Other_Syouwa">今年平成:%1$d年\n昭和%2$d年死亡の故人は\n今年は法事はありません\n\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- Select2 西歴入力 -->
+    <string name="Select_Wareki_Input_Seireki">故人の死亡年を入れてください\n西歴何年ですか？\n(西歴1926年〜西歴2020年)\n\n\n\n\n西歴:%1$d年</string>
+    <!-- Select2 西歴入力 今年の年入力-->
+    <string name="Select_Wareki_Input_Seireki_ThisYear">今年は西歴何年ですか？\n\n\n\n\n\n\n西歴:%1$d年</string>
+  
+    
+    
+    
+     <!-- 1周忌 -->
+    <string name="Result_Death_Year1_Seireki">今年西暦%1$d年\n西歴%2$d年死亡の故人は\n今年は1周忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 3回忌 -->
+    <string name="Result_Death_Year3_Seireki">今年西暦%1$d年\n西歴%2$d年死亡の故人は\n今年は3回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 7回忌 -->
+    <string name="Result_Death_Year7_Seireki">今年西暦%1$d年\n西歴%2$d年死亡の故人は\n今年は7回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 13回忌 -->
+    <string name="Result_Death_Year13_Seireki">今年西暦%1$d年\n西歴%2$d年死亡の故人は\n今年は13回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 23回忌 -->
+    <string name="Result_Death_Year23_Seireki">今年西暦%1$d年\n西歴%2$d年死亡の故人は\n今年は23回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 27回忌 -->
+    <string name="Result_Death_Year27_Seireki">今年西暦%1$d年\n西歴%2$d年死亡の故人は\n今年は27回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 33回忌 -->
+    <string name="Result_Death_Year33_Seireki">今年西暦%1$d年\n西歴%2$d年死亡の故人は\n今年は33回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 37回忌 -->
+    <string name="Result_Death_Year37_Seireki">今年西暦%1$d年\n西歴%2$d年死亡の故人は\n今年は37回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- 50回忌 -->
+    <string name="Result_Death_Year50_Seireki">今年西暦%1$d年\n西歴%2$d年死亡の故人は\n今年は50回忌になります\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- その他 -->
+    <string name="Result_Death_Year_Other_Seireki">今年西暦%1$d年\n西歴%2$d年死亡の故人は\n今年は法事はありません\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!-- Select2 和暦入力 -->
+    <string name="Input_Dead_Year">故人の死亡年を求めます\n故人は何回忌ですか？\n\n\n\n\n\n\n今年:%1$d回忌</string>
+     <!-- 1周忌 -->
+     <string name="Result_Dead_year_Patern0_Heisei">今年:%1$d周忌\n故人の死亡年は平成%2$d年です\n\n\n\n\n\nクリアボタンを押してください</string>
+     <string name="Result_Dead_year_Patern1_Heisei">今年:%1$d回忌\n故人の死亡年は平成%2$d年です\n\n\n\n\n\nクリアボタンを押してください</string>
+     <string name="Result_Dead_year_Patern1_Heisei2">今年:%1$d回忌\n故人の死亡年は平成元年です\n\n\n\n\n\nクリアボタンを押してください</string>
+     
+     <string name="Result_Dead_year_Patern2_Syouwa">今年:%1$d回忌\n故人の死亡年は昭和%2$d年です\n\n\nクリアボタンを押してください</string>
+     <!-- Select2 西暦入力 -->
+     <string name="Result_Dead_year_Patern1_Seireki">今年西暦%1$d年\n今年:%2$d周忌\n故人の死亡年は西暦%3$d年です\n\n\n\n\n\nクリアボタンを押してください</string>
+     <string name="Result_Dead_year_Patern2_Seireki">今年西暦%1$d年\n今年:%2$d回忌\n故人の死亡年は西暦%3$d年です\n\n\n\n\n\nクリアボタンを押してください</string>
+     <!-- 3回忌 -->
+     <!-- 7回忌 -->
+     <!-- 13回忌 -->
+     <!-- 23回忌 -->
+     <!-- 27回忌 -->
+     <!-- 33回忌 -->
+     <!-- 37回忌 -->
+     <!-- 50回忌 -->
+     <string name="Result_Houji_YearList_Title">法事年一覧</string>
+     <!-- 1.Result 法事年一覧 和暦-->
+     <string name="Result_Houji_Tosi_List_Wareki">今年:平成%1$d年\n法事年一覧リスト\n一周忌:%2$s%3$d年死亡の故人\n三回忌:%4$s%5$d年死亡の故人\n七回忌:%6$s%7$d年死亡の故人\n十三回忌:%8$s%9$d年死亡の故人\n十七回忌:%10$s%11$d年死亡の故人\n二十三回忌:%12$s%13$d年死亡の故人\n二十七回忌:%14$s%15$d年死亡の故人\n三十三回忌:%16$s%17$d年死亡の故人\n三十七回忌:%18$s%19$d年死亡の故人\n五十回忌:%20$s%21$d年死亡の故人</string>
+     <!-- 2.Result 法事年一覧 西暦-->
+     <string name="Result_Houji_Tosi_List_Seireki">今年:西暦%1$d年\n法事年一覧リスト\n一周忌:西暦%2$d年死亡の故人\n三回忌:西暦%3$d年死亡の故人\n七回忌:西暦%4$d年死亡の故人\n十三回忌:西暦%5$d年死亡の故人\n十七回忌:西暦%6$d年死亡の故人\n二十三回忌:西暦%7$d年死亡の故人\n二十七回忌:西暦%8$d年死亡の故人\n三十三回忌:西暦%9$d年死亡の故人\n三十七回忌:西暦%10$d年死亡の故人\n五十回忌:西暦%11$d年死亡の故人</string>
+    <string name="All_Clear_Message">オールクリアしました</string>
+    <string name="Start_Message">入力ボタンを押してください</string>
+    <string name="Push_Adsence_Message">↓ここの広告もクリックしてください</string>
+    <string name="Save_Message">設定を保存しました</string>
+
+    <!-- エラーダイアログ  ここから-->
+    <!-- エラーダイアログ1 -->
+    <string name="Input_Heisei_Error_Title">平成入力エラー</string>
+    <string name="Input_Heisei_Error_Message">平成は27年までです。入れなおしてください</string>
+    <string name="Error_dialog_Title">入力エラー</string>
+    <string name="Error_dialog_Message">周忌又は回忌の有効桁年を\n入れなおしてください\n有効桁年\n(1周忌、3回忌、7回忌、\n17回忌、13回忌、23回忌、27回忌、\n33回忌、37回忌、50回忌)\nです。</string>
+    <string name="OK">OK</string>
+    <!-- エラーダイアログ  ここまで-->
+    <!--西暦和暦変換 -->
+    <string name="Title_Wareki_Seireki_Wareki_Seireki">どちらか選択して下さい</string>
+    <string name="Select_Wareki_Seireki">1.和暦を西暦に変える</string>
+    <string name="Select_Seireki_Wareki">2.西暦を和暦に変える</string>
+    <!-- 1.和暦＝＝＞西暦変換-->
+    <string name="Title_Exchange_Wareki_list">和歴のタイプを選んで下さい</string>
+    <string name="SelectWareki_list1_Syouwa">1.昭 和</string>
+    <string name="SelectWareki_list2_Heisei">2.平 成</string>
+    <!-- 1.昭和リスト -->
+    <string name="Title_WagouSyouwaList">昭和を西暦に変換します\n西暦に変える昭和を選んで下さい</string>
+    <!--昭和元年 (1926年)-->
+    <string name="Select_Wagou_SyouwaList1">昭和元年の西暦</string>
+    <!--昭和2年 (1927年)-->
+    <string name="Select_Wagou_SyouwaList2">昭和2年の西暦</string>
+    <!--昭和3年 (1928年)-->
+    <string name="Select_Wagou_SyouwaList3">昭和3年の西暦</string>
+    <!--昭和4年 (1929年)-->
+    <string name="Select_Wagou_SyouwaList4">昭和4年の西暦</string>
+    <!--昭和5年 (1930年)-->
+    <string name="Select_Wagou_SyouwaList5">昭和5年の西暦</string>
+    <!--昭和6年 (1931年)-->
+    <string name="Select_Wagou_SyouwaList6">昭和6年の西暦</string>
+    <!--昭和7年 (1932年)-->
+    <string name="Select_Wagou_SyouwaList7">昭和7年の西暦</string>
+    <!--昭和8年 (1933年)-->
+    <string name="Select_Wagou_SyouwaList8">昭和8年の西暦</string>
+    <!--昭和9年 (1934年)-->
+    <string name="Select_Wagou_SyouwaList9">昭和9年の西暦</string>
+    <!--昭和10年 (1935年)-->
+    <string name="Select_Wagou_SyouwaList10">昭和10年の西暦</string>
+    <!--昭和11年 (1936年)-->
+    <string name="Select_Wagou_SyouwaList11">昭和11年の西暦</string>
+    <!--昭和12年 (1937年)-->
+    <string name="Select_Wagou_SyouwaList12">昭和12年の西暦</string>
+    <!--昭和13年 (1938年)-->
+    <string name="Select_Wagou_SyouwaList13">昭和13年の西暦</string>
+    <!--昭和14年 (1939年)-->
+    <string name="Select_Wagou_SyouwaList14">昭和14年の西暦</string>
+    <!--昭和15年 (1940年)-->
+    <string name="Select_Wagou_SyouwaList15">昭和15年の西暦</string>
+    <!--昭和16年 (1941年)-->
+    <string name="Select_Wagou_SyouwaList16">昭和16年の西暦</string>
+    <!--昭和17年 (1942年)-->
+    <string name="Select_Wagou_SyouwaList17">昭和17年の西暦</string>
+    <!--昭和18年 (1943年)-->
+    <string name="Select_Wagou_SyouwaList18">昭和18年の西暦</string>
+    <!--昭和19年 (1944年)-->
+    <string name="Select_Wagou_SyouwaList19">昭和19年の西暦</string>
+    <!--昭和20年 (1945年)-->
+    <string name="Select_Wagou_SyouwaList20">昭和20年の西暦</string>
+    <!--昭和21年 (1946年)-->
+    <string name="Select_Wagou_SyouwaList21">昭和21年の西暦</string>
+    <!--昭和22年 (1947年)-->
+    <string name="Select_Wagou_SyouwaList22">昭和22年の西暦</string>
+    <!--昭和23年 (1948年)-->
+    <string name="Select_Wagou_SyouwaList23">昭和23年の西暦</string>
+    <!--昭和24年 (1949年)-->
+    <string name="Select_Wagou_SyouwaList24">昭和24年の西暦</string>
+    <!--昭和25年 (1950年)-->
+    <string name="Select_Wagou_SyouwaList25">昭和25年の西暦</string>
+    <!--昭和26年 (1951年)-->
+    <string name="Select_Wagou_SyouwaList26">昭和26年の西暦</string>
+    <!--昭和27年 (1952年)-->
+    <string name="Select_Wagou_SyouwaList27">昭和27年の西暦</string>
+    <!--昭和28年 (1953年)-->
+    <string name="Select_Wagou_SyouwaList28">昭和28年の西暦</string>
+    <!--昭和29年 (1954年)-->
+    <string name="Select_Wagou_SyouwaList29">昭和29年の西暦</string>
+    <!--昭和30年 (1955年)-->
+    <string name="Select_Wagou_SyouwaList30">昭和30年の西暦</string>
+    <!--昭和31年 (1956年)-->
+    <string name="Select_Wagou_SyouwaList31">昭和31年の西暦</string>
+    <!--昭和32年 (1957年)-->
+    <string name="Select_Wagou_SyouwaList32">昭和32年の西暦</string>
+    <!--昭和33年 (1958年)-->
+    <string name="Select_Wagou_SyouwaList33">昭和33年の西暦</string>
+    <!--昭和34年 (1959年)-->
+    <string name="Select_Wagou_SyouwaList34">昭和34年の西暦</string>
+    <!--昭和35年 (1960年)-->
+    <string name="Select_Wagou_SyouwaList35">昭和35年の西暦</string>
+    <!--昭和36年 (1961年)-->
+    <string name="Select_Wagou_SyouwaList36">昭和36年の西暦</string>
+    <!--昭和37年 (1962年)-->
+    <string name="Select_Wagou_SyouwaList37">昭和37年の西暦</string>
+    <!--昭和38年 (1963年)-->
+    <string name="Select_Wagou_SyouwaList38">昭和38年の西暦</string>
+    <!--昭和39年 (1964年)-->
+    <string name="Select_Wagou_SyouwaList39">昭和39年の西暦</string>
+    <!--昭和40年 (1965年)-->
+    <string name="Select_Wagou_SyouwaList40">昭和40年の西暦</string>
+    <!--昭和41年 (1966年)-->
+    <string name="Select_Wagou_SyouwaList41">昭和41年の西暦</string>
+    <!--昭和42年 (1967年)-->
+    <string name="Select_Wagou_SyouwaList42">昭和42年の西暦</string>
+    <!--昭和43年 (1968年)-->
+    <string name="Select_Wagou_SyouwaList43">昭和43年の西暦</string>
+    <!--昭和44年 (1969年)-->
+    <string name="Select_Wagou_SyouwaList44">昭和44年の西暦</string>
+    <!--昭和45年 (1970年)-->
+    <string name="Select_Wagou_SyouwaList45">昭和45年の西暦</string>
+    <!--昭和46年 (1971年)-->
+    <string name="Select_Wagou_SyouwaList46">昭和46年の西暦</string>
+    <!--昭和47年 (1972年)-->
+    <string name="Select_Wagou_SyouwaList47">昭和47年の西暦</string>
+    <!--昭和48年 (1973年)-->
+    <string name="Select_Wagou_SyouwaList48">昭和48年の西暦</string>
+    <!--昭和49年 (1974年)-->
+    <string name="Select_Wagou_SyouwaList49">昭和49年の西暦</string>
+    <!--昭和50年 (1975年)-->
+    <string name="Select_Wagou_SyouwaList50">昭和50年の西暦</string>
+    <!--昭和51年 (1976年)-->
+    <string name="Select_Wagou_SyouwaList51">昭和51年の西暦</string>
+    <!--昭和52年 (1977年)-->
+    <string name="Select_Wagou_SyouwaList52">昭和52年の西暦</string>
+    <!--昭和53年 (1978年)-->
+    <string name="Select_Wagou_SyouwaList53">昭和53年の西暦</string>
+    <!--昭和54年 (1979年)-->
+    <string name="Select_Wagou_SyouwaList54">昭和54年の西暦</string>
+    <!--昭和55年 (1980年)-->
+    <string name="Select_Wagou_SyouwaList55">昭和55年の西暦</string>
+    <!--昭和56年 (1981年)-->
+    <string name="Select_Wagou_SyouwaList56">昭和56年の西暦</string>
+    <!--昭和57年 (1982年)-->
+    <string name="Select_Wagou_SyouwaList57">昭和57年の西暦</string>
+    <!--昭和58年 (1983年)-->
+    <string name="Select_Wagou_SyouwaList58">昭和58年の西暦</string>
+    <!--昭和59年 (1984年)-->
+    <string name="Select_Wagou_SyouwaList59">昭和59年の西暦</string>
+    <!--昭和60年 (1985年)-->
+    <string name="Select_Wagou_SyouwaList60">昭和60年の西暦</string>
+    <!--昭和61年 (1986年)-->
+    <string name="Select_Wagou_SyouwaList61">昭和61年の西暦</string>
+    <!--昭和62年 (1987年)-->
+    <string name="Select_Wagou_SyouwaList62">昭和62年の西暦</string>
+    <!--昭和63年 (1988年)-->
+    <string name="Select_Wagou_SyouwaList63">昭和63年の西暦</string>
+    <!--昭和64年 (1989年)-->
+    <string name="Select_Wagou_SyouwaList64">昭和64年の西暦</string>
+    <!--2.平成リスト-->
+ 　　<string name="Title_WagouHeiseiList">平成を西暦に変換します\n西暦に変える平成を選んで下さい</string>
+    <!--平成元年(1989年)-->
+    <string name="Select_Wagou_HeiseiList1">平成元年の西暦</string>
+    <!--平成2年(1990年)-->
+    <string name="Select_Wagou_HeiseiList2">平成2年の西暦</string>
+    <!--平成3年(1991年)-->
+    <string name="Select_Wagou_HeiseiList3">平成3年の西暦</string>
+    <!--平成4年(1992年)-->
+    <string name="Select_Wagou_HeiseiList4">平成4年の西暦</string>
+    <!--平成5年(1993年)-->
+    <string name="Select_Wagou_HeiseiList5">平成5年の西暦</string>
+    <!--平成6年(1994年)-->
+    <string name="Select_Wagou_HeiseiList6">平成6年の西暦</string>
+    <!--平成7年(1995年)-->
+    <string name="Select_Wagou_HeiseiList7">平成7年の西暦</string>
+    <!--平成8年(1996年)-->
+    <string name="Select_Wagou_HeiseiList8">平成8年の西暦</string>
+    <!--平成9年(1997年)-->
+    <string name="Select_Wagou_HeiseiList9">平成9年の西暦</string>
+    <!--平成10年(1998年)-->
+    <string name="Select_Wagou_HeiseiList10">平成10年の西暦</string>
+    <!--平成11年(1999年)-->
+    <string name="Select_Wagou_HeiseiList11">平成11年の西暦</string>
+    <!--平成12年(2000年)-->
+    <string name="Select_Wagou_HeiseiList12">平成12年の西暦</string>
+    <!--平成13年(2001年)-->
+    <string name="Select_Wagou_HeiseiList13">平成13年の西暦</string>
+    <!--平成14年(2002年)-->
+    <string name="Select_Wagou_HeiseiList14">平成14年の西暦</string>
+    <!--平成15年(2003年)-->
+    <string name="Select_Wagou_HeiseiList15">平成15年の西暦</string>
+    <!--平成16年(2004年)-->
+    <string name="Select_Wagou_HeiseiList16">平成16年の西暦</string>
+    <!--平成17年(2005年)-->
+    <string name="Select_Wagou_HeiseiList17">平成17年の西暦</string>
+    <!--平成18年(2006年)-->
+    <string name="Select_Wagou_HeiseiList18">平成18年の西暦</string>
+    <!--平成19年(2007年)-->
+    <string name="Select_Wagou_HeiseiList19">平成19年の西暦</string>
+    <!--平成20年(2008年)-->
+    <string name="Select_Wagou_HeiseiList20">平成20年の西暦</string>
+    <!--平成21年(2009年)-->
+    <string name="Select_Wagou_HeiseiList21">平成21年の西暦</string>
+    <!--平成22年(2010年)-->
+    <string name="Select_Wagou_HeiseiList22">平成22年の西暦</string>
+    <!--平成23年(2011年)-->
+    <string name="Select_Wagou_HeiseiList23">平成23年の西暦</string>
+    <!--平成24年(2012年)-->
+    <string name="Select_Wagou_HeiseiList24">平成24年の西暦</string>
+    <!--平成25年(2013年)-->
+    <string name="Select_Wagou_HeiseiList25">平成25年の西暦</string>
+    <!--平成26年(2014年)-->
+    <string name="Select_Wagou_HeiseiList26">平成26年の西暦</string>
+    <!--平成27年(2015年)-->
+    <string name="Select_Wagou_HeiseiList27">平成27年の西暦</string>
+    <!--平成28年(2016年)-->
+    <string name="Select_Wagou_HeiseiList28">平成28年の西暦</string>
+ <!--Title 和暦(昭和)を西暦に変換の結果表示 -->
+ <string name="Title_Syouwa_Seireki">和暦(昭和)を西暦に変換します</string>
+    <!--Title 和暦(平成)を西暦に変換の結果表示 -->
+    <string name="Title_Heisei_Seireki">和暦(平成)を西暦に変換します</string>
+    <!--和暦を西暦に変換の結果表示 -->
+   <string name="Result_Syouwa_Heisei_Seireki">%1$s%2$d年です</string>
+    <!--Title:西暦から和暦に変換-->
+    <string name="Title_Seireki_Wareki_Henkan">西暦を和暦に変換します\n変換する西暦4桁を入れて下さい\n(有効年数:1926〜2018)</string>
+    <!--1.結果：西暦から和暦(昭和)-->
+    <!--1.Title-->
+    <string name="Title_SeirekiWareki">西暦から和歴(昭和)に変換します</string>
+    <!--2.Message-->
+    <string name="Message_SeirekiWareki">西暦%1$d年は昭和%2$d年です</string>
+    <!--2.結果：西暦から和暦(平成)-->
+    <!--Patern 1-->
+    <string name="Message_SeirekiWareki_HeiseiGannen_Syouwa64Year">西暦%1$d年は\n平成元年(昭和64年)です</string>
+    <!--1.Title-->
+    <string name="Title_SeirekiWareki2">西暦から和歴(平成)に変換します</string>
+    <!--2.Message-->
+    <string name="Message_SeirekiWareki2">西暦%1$d年は平成%2$d年</string>
+    <!--3.年数範囲外エラー-->
+    <!--1.Title-->
+    <string name="Title_Error_Dialog">範囲外エラー</string>
+    <!--2.Error Message-->
+    <string name="Message_Error_Dialog">範囲外エラーです\n有効数字(1925年〜2018年)内で\n入れて下さい</string>
+    <!-- コンフィグ設定画面 -->
+    <string name="Config_Title">バージョン</string>
+    <string name="ConfigMessage">バージョン情報</string>
+    <!-- Menu Dialog ここから-->
+    <string name="Help_Manual">マニュアル</string>
+    <string name="Help_Manual_Title">マニュアル</string>
+    <string name="Version_Menu">バージョン</string>
+    <string name="Config_Menu">設定画面</string>
+    <string name="Config_Personal">保存データの選択</string>
+    <string name="Config_Personal_Massage">保存データの選択\n保存番号を選んで下さい</string>
+    <string name="Change_Color_Title">色の変更</string>
+    <string name="Change_Red">赤に変更しました</string>
+    <string name="Change_Vibration_Title">バイブの設定</string>
+    <string name="Change_Nengou">西暦 ⇔ 和暦変換</string>
+    <!-- バージョンダイアログ ここまで -->
+    <!-- バージョンダイアログ ここまで -->
+
+     <!-- スピーチメッセージ　ここまで-->
+    <!-- 共通部分 Base file ここまで-->
+    <!-- ボタン配列 -->
+    <string name="Button_one"><b>1</b></string>
+    <string name="Button_two"><b>2</b></string>
+    <string name="Button_three"><b>3</b></string>
+    <string name="Button_four"><b>4</b></string>
+    <string name="Button_five"><b>5</b></string>
+    <string name="Button_six"><b>6</b></string>
+    <string name="Button_seven"><b>7</b></string>
+    <string name="Button_eight"><b>8</b></string>
+    <string name="Button_nine"><b>9</b></string>
+    <string name="Button_zero"><b>0</b></string>
+    <string name="Button_clear"><b>クリア</b></string>
+    <string name="Button_EXE"><b>入力</b></string>
+    <string name="Yes"><b>Yes</b></string>
+    <string name="No"><b>No</b></string>
+    </resources>

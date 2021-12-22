@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--【注意】switchタグの順序は変更不可。HTMLファイルでswitchメニューを設ける際は、class名"switch"+"n"を指定する。nは本ファイル内の順序。-->
+<AllMenu>
+	
+	<!--class="switch1"通常の切替スイッチの例-->
+	<!--switch1を配置するファイル名を、ここにメモ。-->
+	<switch>
+		<title>メニュー名</title>
+		<select id="switch1">
+			<option value="all">すべて表示</option>
+			<option value="項目名1のclass名">項目名1</option>
+			<option value="項目名2のclass名">項目名2</option>
+		</select>
+	</switch>
+		
+	<!--class="switch2"複数セットの切替スイッチの例-->
+	<!--switch2を配置するファイル名を、ここにメモ。-->
+	<switch>
+		<title>メニュー名</title>
+		<select id="switch2a">
+			<option value="all">すべて表示</option>
+			<option value="項目名1のclass名">項目名1</option>
+			<option value="項目名2のclass名">項目名2</option>
+		</select>
+		<select id="switch2b">
+			<option value="all">すべて表示</option>
+			<option value="項目名Aのclass名">項目名A</option>
+			<option value="項目名Bのclass名">項目名B</option>
+			<option value="項目名Cのclass名">項目名C</option>
+		</select>
+	</switch>
+	
+	<!--class="switch3"用語切替スイッチの例-->
+	<!--switch3を配置するファイル名を、ここにメモ。-->
+	<switch>
+		<title>メニュー名</title>
+		<select id="wordset">
+			<option value="項目名1">
+				<word value="hoge">ほげ</word>
+				<word value="hogehoge">ほげほげ</word>
+			</option>
+			<option value="項目名2">
+				<word value="hoge">ホゲ</word>
+				<word value="hogehoge">ホゲホゲ</word>
+			</option>
+			<option value="項目名3">
+				<word value="hoge">HOGE</word>
+				<word value="hogehoge">HOGEHOGE</word>
+			</option>
+		</select>
+	</switch>
+
+</AllMenu>

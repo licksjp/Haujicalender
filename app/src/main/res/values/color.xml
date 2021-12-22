@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+<color name="title_color">#800080</color>
+<color name="Adsense_Text1_color">#000000</color>
+<color name="Adsense_Text2_color">#ff0000</color>
+<color name="Main_TEXT_color_Back_White">#ffffff</color>
+<color name="Main_TEXT_color_charachter_BLACK">#000000</color>
+<color name="Main_TEXT_Back_Color_Lime">#00ff00</color>
+<color name="Defalt_color_Lime">#00ff00</color>
+<color name="White">#FFFFFF</color>
+<color name="Red">#ff0000</color>
+<color name="lightcoral">#F08080</color>
+<color name="Black">#000000</color>
+<color name="Lime">#00FF00</color>
+<color name="Blue">#00ffff</color>
+<color name="Purple">#800080</color>
+<color name="Orenge">#ff8000</color>
+<color name="Pink">#ff8085</color>
+<color name="Gray">#808080</color>
+    <color name="primary">#03A9F4</color>
+    <color name="primary_dark">#546E7A</color>
+    <color name="accent">#4CAF50</color>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Animation" parent="android:Animation" />
+	<style name="Animation.Activity" parent="android:Animation.Activity">
+		<item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+		<item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+		<item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item>
+		<item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+	</style>
+	<!-- your theme inherits from the material theme -->
+	<style name="AppTheme" parent="android:Theme.Material">
+		<!-- Main theme colors -->
+		<!--   your app branding color for the app bar -->
+		<item name="android:colorPrimary">@color/primary</item>
+		<!--   darker variant for the status bar and contextual app bars -->
+		<item name="android:colorPrimaryDark">@color/primary_dark</item>
+		<!--   theme UI controls like checkboxes and text fields -->
+		<item name="android:colorAccent">@color/accent</item>
+	</style>
+	<style name="counterText">
+		<item name="android:textColor">#aa5353cc</item>
+	</style>
+
+	<style name="counterOverride">
+		<item name="android:textColor">#ff0000</item>
+	</style>
+	<style name="AccentButtonStyle" parent="Theme.AppCompat">
+		<!--ボタンの色-->
+		<item name="colorButtonNormal">#03A9F4</item>
+		<!--ボタンをプレスしている時、シークバーをプレスしている時の色-->
+		<item name="colorControlHighlight">#2196F3</item>
+	</style>
+
+	<style name="NegativeButtonStyle" parent="Theme.AppCompat.Light">
+		<!--ボタンの色-->
+		<item name="colorButtonNormal">#FAFAFA</item>
+		<!--ボタンをプレスしている時、シークバーをプレスしている時の色-->
+		<item name="colorControlHighlight">#FFAB40</item>
+	</style>
+	<!-- theme customizations -->
+	<!-- the theme applied to the application or activity -->
+	<!--
+	<style name="MyTheme" parent="android:Theme.Light" >
+		<item name="android:windowNoTitle" >true</item >
+		<item name="android:textSize" >18sp</item>
+		<item name="android:drawablePadding" >0dp</item>
+	</style>
+	-->
+</resources>

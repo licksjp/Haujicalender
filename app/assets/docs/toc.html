@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=10"> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<title>目次</title>
+	<meta name="author" content="High Technology Communications, Inc.">
+	<meta name="copyright" content="&copy; 2013 HTC">
+</head>
+<body>
+<ul class="acc" data-maxheight="700">
+	<li><a class="menu0">章見出し</a>
+		<ul>
+		<li><a class="menu1">見出し1</a>
+			<ul>
+				<li><a href="./404.html">見出し2</a></li>
+				<li><a href="./404.html#h2_002">見出し2</a></li>
+			</ul></li>
+		<li><a class="menu1">見出し1</a>
+			<ul>
+				<li><a href="./404.html">見出し2</a></li>
+				<li><a href="./404.html#h2_002">見出し2</a></li>
+			</ul></li>
+		</ul></li>
+	<li><a class="menu0">章見出し</a>
+		<ul>
+		<li><a class="menu1">見出し1</a>
+			<ul>
+				<li><a href="./404.html">見出し2</a></li>
+				<li><a href="./404.html#h2_002">見出し2</a></li>
+			</ul></li>
+		<li><a class="menu1">見出し1</a>
+			<ul>
+				<li><a href="./404.html">見出し2</a></li>
+				<li><a href="./404.html#h2_002">見出し2</a></li>
+			</ul></li>
+		</ul></li>
+</ul>
+	<p class="button"><a href="./index.html" class="iphoneinline">トップへ</a>&nbsp;&nbsp;&nbsp;<a href="http://www.htc-inc.co.jp/">HTCとは</a><br class="ipadinline">&nbsp;&nbsp;<a href="http://www.htc-inc.co.jp/contact/index.html">お問い合わせ</a></p>
+	
+<script type="text/javascript">
+var j$ = jQuery;
+// J$はjQueryの関数。
+
+// アコーディオンメニュー
+j$(function(){
+	var menuid;
+	if($.cookie("menuid0")) {
+		menuid0 = parseInt ($.cookie("menuid0"), 10);
+	} else {
+		menuid0 = -1;
+	};
+	if($.cookie("menuid1")) {
+		menuid1 = parseInt ($.cookie("menuid1"), 10);
+	} else {
+		menuid1 = -1;
+	};
+
+	j$(".acc li > a",this).each(function(index){
+		var $this = j$(this);
+		if((index != menuid0) && (index != menuid1)) $this.next().hide();
+		$this.click(function(){
+			if (j$(this).is(".menu0")) {
+				var openid0 = index;
+				$.cookie("menuid0", openid0, {expires: null});
+			};
+			if (j$(this).is(".menu1")) {
+				var openid1 = index;
+				$.cookie("menuid1", openid1, {expires: null});
+			};
+			var params = {height:"toggle", opacity:"toggle"};
+			j$(this).next().animate(params).parent().siblings().children("ul:visible").animate(params);
+		});
+	});
+});
+</script>
+</body>
+</html>

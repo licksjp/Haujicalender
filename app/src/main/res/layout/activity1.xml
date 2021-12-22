@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+	android:text="@string/app_name1"
+    android:gravity="center">
+
+    <!--
+	<com.google.android.gms.ads.AdView
+		xmlns:ads="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		ads:adSize="SMART_BANNER"
+		ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+	</com.google.android.gms.ads.AdView>
+-->
+    <Button
+        android:id="@+id/Button_Adsence"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:text="広告を表示" />
+
+</LinearLayout>
